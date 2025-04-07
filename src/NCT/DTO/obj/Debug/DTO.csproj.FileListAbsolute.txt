@@ -1,0 +1,12 @@
+B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\DTO\bin\Debug\DTO.dll
+B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\DTO\bin\Debug\DTO.pdb
+B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\DTO\obj\Debug\DTO.dll
+B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\DTO\obj\Debug\DTO.pdb
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\bin\Debug\DTO.dll
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\bin\Debug\DTO.pdb
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.dll
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.pdb

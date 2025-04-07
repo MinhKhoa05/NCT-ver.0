@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|b:\\\u0111\u1ED3 \u00E1n cnpm\\nct-ver.0\\src\\nct\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|b:\\\u0111\u1ED3 \u00E1n cnpm\\nct-ver.0\\src\\nct\\gui\\usercontrol\\frmroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrol\\frmroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|b:\\\u0111\u1ED3 \u00E1n cnpm\\nct-ver.0\\src\\nct\\gui\\usercontrol\\frmroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrol\\frmroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|b:\\\u0111\u1ED3 \u00E1n cnpm\\nct-ver.0\\src\\nct\\gui\\usercontrol\\frmroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrol\\frmroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|b:\\\u0111\u1ED3 \u00E1n cnpm\\nct-ver.0\\src\\nct\\gui\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|b:\\\u0111\u1ED3 \u00E1n cnpm\\nct-ver.0\\src\\nct\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmRoom.Designer.cs",
+              "DocumentMoniker": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\UserControl\\frmRoom.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\UserControl\\frmRoom.Designer.cs",
+              "ToolTip": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\UserControl\\frmRoom.Designer.cs",
+              "RelativeToolTip": "GUI\\UserControl\\frmRoom.Designer.cs",
+              "ViewState": "AgIAACoCAAAAAAAAAAAAAEICAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T10:33:07.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmRoom.cs",
+              "DocumentMoniker": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\UserControl\\frmRoom.cs",
+              "RelativeDocumentMoniker": "GUI\\UserControl\\frmRoom.cs",
+              "ToolTip": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\UserControl\\frmRoom.cs",
+              "RelativeToolTip": "GUI\\UserControl\\frmRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T10:25:22.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmRoom.cs [Design]",
+              "DocumentMoniker": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\UserControl\\frmRoom.cs",
+              "RelativeDocumentMoniker": "GUI\\UserControl\\frmRoom.cs",
+              "ToolTip": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\UserControl\\frmRoom.cs [Design]",
+              "RelativeToolTip": "GUI\\UserControl\\frmRoom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T10:06:05.269Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMain.Designer.cs",
+              "DocumentMoniker": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\frmMain.Designer.cs",
+              "ToolTip": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.Designer.cs",
+              "RelativeToolTip": "GUI\\frmMain.Designer.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAtwLIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T18:24:40.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI\\frmMain.cs",
+              "ToolTip": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
+              "RelativeToolTip": "GUI\\frmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T18:05:27.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI\\frmMain.cs",
+              "ToolTip": "B:\\\u0110\u1ED3 \u00E1n CNPM\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs [Design]",
+              "RelativeToolTip": "GUI\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:33:53.877Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1022,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1014,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
