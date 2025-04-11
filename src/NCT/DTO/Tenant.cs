@@ -4,6 +4,9 @@ namespace DTO
 {
     public class Tenant
     {
+        [RegularExpression(@"^[A-Z]\d{4}$", ErrorMessage = "Mã phòng phải có định dạng A/B/C + 4 số")]
+        public string RoomID { get; set; }
+
         public string TenantID { get; set; }
 
         [Required(ErrorMessage = "Họ tên không được để trống")]
@@ -24,9 +27,6 @@ namespace DTO
         [RegularExpression(@"^\d{12}$", ErrorMessage = "CCCD phải gồm đúng 12 chữ số")]
         [StringLength(12, ErrorMessage = "CCCD phải gồm đúng 12 ký tự")]
         public string NationalID { get; set; }
-
-        [RegularExpression(@"^[A-Z]\d{4}$", ErrorMessage = "Mã phòng phải có định dạng A/B/C + 4 số")]
-        public string RoomID { get; set; }
 
         public Tenant() { }
 

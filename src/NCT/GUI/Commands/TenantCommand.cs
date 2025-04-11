@@ -17,11 +17,17 @@ namespace GUI.Commands
         {
             _dgv.Columns["TenantID"].HeaderText = "ID";
             _dgv.Columns["TenantID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+
             _dgv.Columns["FullName"].HeaderText = "Họ tên";
+            _dgv.Columns["FullName"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+
             _dgv.Columns["PhoneNumber"].HeaderText = "Số điện thoại";
             _dgv.Columns["Address"].HeaderText = "Địa chỉ";
+            _dgv.Columns["Address"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+
             _dgv.Columns["NationalID"].HeaderText = "CCCD";
             _dgv.Columns["NationalID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+
             _dgv.Columns["RoomID"].HeaderText = "Phòng";
             _dgv.Columns["RoomID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
         }

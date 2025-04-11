@@ -67,7 +67,7 @@
             this.btnConfirm.FillColor = System.Drawing.Color.Gold;
             this.btnConfirm.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirm.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnConfirm.Location = new System.Drawing.Point(176, 460);
+            this.btnConfirm.Location = new System.Drawing.Point(156, 456);
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(180, 45);
             this.btnConfirm.TabIndex = 6;
@@ -86,7 +86,7 @@
             this.txtCCCD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCCCD.ForeColor = System.Drawing.Color.Black;
             this.txtCCCD.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCCCD.Location = new System.Drawing.Point(176, 343);
+            this.txtCCCD.Location = new System.Drawing.Point(121, 343);
             this.txtCCCD.Name = "txtCCCD";
             this.txtCCCD.PlaceholderText = "";
             this.txtCCCD.SelectedText = "";
@@ -105,7 +105,7 @@
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAddress.ForeColor = System.Drawing.Color.Black;
             this.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAddress.Location = new System.Drawing.Point(176, 301);
+            this.txtAddress.Location = new System.Drawing.Point(121, 301);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PlaceholderText = "";
             this.txtAddress.SelectedText = "";
@@ -124,7 +124,7 @@
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmail.Location = new System.Drawing.Point(176, 259);
+            this.txtEmail.Location = new System.Drawing.Point(121, 259);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PlaceholderText = "";
             this.txtEmail.SelectedText = "";
@@ -143,7 +143,7 @@
             this.txtFullName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFullName.ForeColor = System.Drawing.Color.Black;
             this.txtFullName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtFullName.Location = new System.Drawing.Point(176, 171);
+            this.txtFullName.Location = new System.Drawing.Point(121, 171);
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.PlaceholderText = "";
             this.txtFullName.SelectedText = "";
@@ -164,7 +164,7 @@
             this.txtTenantID.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenantID.ForeColor = System.Drawing.Color.Black;
             this.txtTenantID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTenantID.Location = new System.Drawing.Point(176, 125);
+            this.txtTenantID.Location = new System.Drawing.Point(121, 125);
             this.txtTenantID.Name = "txtTenantID";
             this.txtTenantID.PlaceholderText = "";
             this.txtTenantID.SelectedText = "";
@@ -210,20 +210,20 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(24, 218);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 25);
+            this.label4.Size = new System.Drawing.Size(45, 25);
             this.label4.TabIndex = 31;
-            this.label4.Text = "Số điện thoại";
+            this.label4.Text = "SĐT";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(22, 125);
+            this.label2.Location = new System.Drawing.Point(24, 125);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 25);
+            this.label2.Size = new System.Drawing.Size(30, 25);
             this.label2.TabIndex = 30;
-            this.label2.Text = "Mã khách thuê";
+            this.label2.Text = "ID";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -241,7 +241,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(99, 30);
+            this.label1.Location = new System.Drawing.Point(77, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(325, 45);
             this.label1.TabIndex = 23;
@@ -260,7 +260,7 @@
             this.txtPhone.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhone.ForeColor = System.Drawing.Color.Black;
             this.txtPhone.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPhone.Location = new System.Drawing.Point(176, 217);
+            this.txtPhone.Location = new System.Drawing.Point(121, 217);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.PlaceholderText = "";
             this.txtPhone.SelectedText = "";
@@ -277,7 +277,7 @@
             this.cbRoom.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbRoom.ForeColor = System.Drawing.Color.Black;
             this.cbRoom.ItemHeight = 30;
-            this.cbRoom.Location = new System.Drawing.Point(176, 390);
+            this.cbRoom.Location = new System.Drawing.Point(121, 390);
             this.cbRoom.Name = "cbRoom";
             this.cbRoom.Size = new System.Drawing.Size(339, 36);
             this.cbRoom.TabIndex = 5;
@@ -286,7 +286,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(241)))), ((int)(((byte)(225)))));
-            this.ClientSize = new System.Drawing.Size(553, 533);
+            this.ClientSize = new System.Drawing.Size(489, 522);
             this.Controls.Add(this.cbRoom);
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.lblRoom);

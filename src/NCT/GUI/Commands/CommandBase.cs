@@ -19,10 +19,7 @@ namespace GUI.Commands
 
         public virtual string LabelText => "Danh sách";
 
-        public void SetDataGridView(DataGridView dgv)
-        {
-            _dgv = dgv;
-        }
+        public void SetDataGridView(DataGridView dgv) => _dgv = dgv;
 
         public void Load()
         {
@@ -39,31 +36,17 @@ namespace GUI.Commands
             _dgv.DataSource = _bus.Search(keyword);
         }
 
-        public void Insert() => ShowForm(true);
-        public void Edit() => ShowForm(false);
+        public void Insert() => ShowForm(isAdd: true);
 
-        private void ShowForm(bool isAdd)
+        public void Edit()
         {
-            if (_dgv == null) return;
-
-            string id = null;
-            if (!isAdd && _dgv.CurrentRow != null)
-                id = _dgv.CurrentRow.Cells[IdColumnName].Value?.ToString();
-
-            using (var form = CreateForm(isAdd, id))
-            {
-                form?.ShowDialog();
-            }
-
-            Load();
+            if (!TryGetSelectedId(out var id)) return;
+            ShowForm(isAdd: false, id);
         }
 
         public void Delete()
         {
-            if (_dgv?.CurrentRow == null) return;
-
-            var id = _dgv.CurrentRow.Cells[IdColumnName].Value?.ToString();
-            if (string.IsNullOrEmpty(id)) return;
+            if (!TryGetSelectedId(out var id)) return;
 
             var confirm = MessageBox.Show(
                 $"Bạn có chắc muốn xóa {LabelText} '{id}' không?",
@@ -76,13 +59,38 @@ namespace GUI.Commands
             {
                 _bus.DeleteById(id);
                 MyMessageBox.ShowInformation("Đã xóa thành công.");
+                Load();
             }
             catch (Exception ex)
             {
                 MyMessageBox.ShowError("Không thể xóa: " + ex.Message);
             }
+        }
+
+        private void ShowForm(bool isAdd, string id = null)
+        {
+            if (_dgv == null) return;
+
+            using (var form = CreateForm(isAdd, id))
+            {
+                form?.ShowDialog();
+            }
 
             Load();
+        }
+
+        private bool TryGetSelectedId(out string id)
+        {
+            id = null;
+
+            if (_dgv?.CurrentRow == null)
+            {
+                MyMessageBox.ShowWarning("Vui lòng chọn 1 ô để thực hiện thao tác.");
+                return false;
+            }
+
+            id = _dgv.CurrentRow.Cells[IdColumnName].Value?.ToString();
+            return !string.IsNullOrEmpty(id);
         }
     }
 }

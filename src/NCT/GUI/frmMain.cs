@@ -11,62 +11,47 @@ namespace GUI
         public frmMain()
         {
             InitializeComponent();
-            ResetPanel();
+            ShowContent(null); // Reset on load
         }
 
-        #region Panel Handling
+        #region Content Management
 
-        private void OpenChildForm(Form childForm)
+        private void ShowContent(Form form = null, UserControl control = null)
         {
-            if (childForm == null)
-            {
-                ResetPanel();
-                return;
-            }
-
-            if (currentForm != null && currentForm.GetType() == childForm.GetType())
-                return;
-
             CloseCurrentForm();
-
-            currentForm = childForm;
-            currentForm.TopLevel = false;
-            currentForm.FormBorderStyle = FormBorderStyle.None;
-            currentForm.Dock = DockStyle.Fill;
-
             panelDesktop.Controls.Clear();
-            panelDesktop.Controls.Add(currentForm);
-            currentForm.BringToFront();
-            currentForm.Show();
+
+            if (form != null)
+            {
+                currentForm = form;
+                currentForm.TopLevel = false;
+                currentForm.FormBorderStyle = FormBorderStyle.None;
+                currentForm.Dock = DockStyle.Fill;
+                panelDesktop.Controls.Add(currentForm);
+                currentForm.BringToFront();
+                currentForm.Show();
+            }
+            else if (control != null)
+            {
+                control.Dock = DockStyle.Fill;
+                panelDesktop.Controls.Add(control);
+            }
         }
 
         private void CloseCurrentForm()
         {
-            currentForm?.Close();
-            currentForm = null;
-        }
-
-        private void LoadControl(UserControl control)
-        {
-            if (control == null) return;
-
-            panelDesktop.SuspendLayout();
-            panelDesktop.Controls.Clear();
-            control.Dock = DockStyle.Fill;
-            panelDesktop.Controls.Add(control);
-            panelDesktop.ResumeLayout();
-        }
-
-        private void ResetPanel()
-        {
-            CloseCurrentForm();
-            panelDesktop.Controls.Clear();
+            if (currentForm != null)
+            {
+                currentForm.Close();
+                currentForm = null;
+            }
         }
 
         #endregion
 
-        #region Form Events
+        #region Event Handlers
 
+        private void picLogo_Click(object sender, EventArgs e) => ShowContent(); // Reset
         private void btnLogout_Click(object sender, EventArgs e)
         {
             Hide();
@@ -75,29 +60,24 @@ namespace GUI
             Close();
         }
 
-        private void picLogo_Click(object sender, EventArgs e) => ResetPanel();
-
-        #endregion
-
-        #region Menu Events
-
         private void LoadForm(string type)
         {
             var func = frmFunction.Instance;
             func.UpdateType(type);
-            LoadControl(func);
+            ShowContent(control: func);
         }
 
         private void btnPhong_Click(object sender, EventArgs e) => LoadForm("Room");
-        private void btnHopDong_Click(object sender, EventArgs e) => OpenChildForm(new frmContract());
         private void btnKhach_Click(object sender, EventArgs e) => LoadForm("Tenant");
-        private void btnVanTay_Click(object sender, EventArgs e) => OpenChildForm(new frmFingerprint());
-        private void btnDienNuoc_Click(object sender, EventArgs e) => OpenChildForm(new frmElectricWater());
-        private void btnThanhToan_Click(object sender, EventArgs e) => OpenChildForm(new frmPayment());
-        private void btnThongke_Click(object sender, EventArgs e) => OpenChildForm(new frmStatistics());
-        private void btnKhac_Click(object sender, EventArgs e) => OpenChildForm(new frmServices());
-        private void btnInfoTro_Click(object sender, EventArgs e) => OpenChildForm(new frmInfoMotel());
-        private void btnNhacNho_Click(object sender, EventArgs e) => OpenChildForm(new frmReminder());
+
+        private void btnHopDong_Click(object sender, EventArgs e) => ShowContent(new frmContract());
+        private void btnVanTay_Click(object sender, EventArgs e) => ShowContent(new frmFingerprint());
+        private void btnDienNuoc_Click(object sender, EventArgs e) => ShowContent(new frmElectricWater());
+        private void btnThanhToan_Click(object sender, EventArgs e) => ShowContent(new frmPayment());
+        private void btnThongke_Click(object sender, EventArgs e) => ShowContent(new frmStatistics());
+        private void btnKhac_Click(object sender, EventArgs e) => ShowContent(new frmServices());
+        private void btnInfoTro_Click(object sender, EventArgs e) => ShowContent(new frmInfoMotel());
+        private void btnNhacNho_Click(object sender, EventArgs e) => ShowContent(new frmReminder());
 
         #endregion
     }
