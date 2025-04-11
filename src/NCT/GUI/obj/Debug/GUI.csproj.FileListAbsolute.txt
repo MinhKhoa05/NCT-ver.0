@@ -65,3 +65,34 @@ B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmRemind.reso
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmRoom.resources
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmServices.resources
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmStatisticFile.resources
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.pdb
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DTO.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\FontAwesome.Sharp.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Guna.UI2.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Dapper.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.pdb
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.pdb
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DTO.pdb
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Dapper.xml
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmMain.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.Up2Date
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.exe
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.pdb
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmContract.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmFingerprint.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmInfoMotel.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmPayment.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoom.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmServices.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenant.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmElectricWater.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmReminder.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmStatistics.resources

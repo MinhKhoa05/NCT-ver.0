@@ -10,3 +10,9 @@ B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.csproj.AssemblyReference.c
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.dll
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.pdb
+D:\NCT-ver.0\src\NCT\DTO\bin\Debug\DTO.dll
+D:\NCT-ver.0\src\NCT\DTO\bin\Debug\DTO.pdb
+D:\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.dll
+D:\NCT-ver.0\src\NCT\DTO\obj\Debug\DTO.pdb

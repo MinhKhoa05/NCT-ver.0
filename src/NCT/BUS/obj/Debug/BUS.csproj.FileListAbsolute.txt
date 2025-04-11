@@ -28,3 +28,18 @@ B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.c
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.csproj.Up2Date
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.dll
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.pdb
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\BUS.dll
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\BUS.pdb
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\DAL.dll
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\DTO.dll
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\Guna.UI2.dll
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\Dapper.dll
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\DAL.pdb
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\DTO.pdb
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\Dapper.xml
+D:\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.csproj.Up2Date
+D:\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.dll
+D:\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.pdb

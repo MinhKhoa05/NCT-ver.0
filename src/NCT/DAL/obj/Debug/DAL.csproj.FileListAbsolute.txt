@@ -32,3 +32,20 @@ B:\Đồ án CNPM\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.c
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.csproj.Up2Date
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.dll
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.pdb
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\DAL.dll
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\DAL.pdb
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\Dapper.dll
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\DTO.dll
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\DTO.pdb
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\Dapper.xml
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\NCT-ver.0\src\NCT\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.dll
+D:\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.pdb
