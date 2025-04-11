@@ -16,5 +16,13 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            frmMain mainForm = new frmMain();
+            mainForm.Show();
+            this.Hide();
+            mainForm.FormClosed += (s, args) => this.Close();
+        }
     }
 }

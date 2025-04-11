@@ -118,3 +118,4 @@ B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmReminder.res
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoom.resources
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmServices.resources
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmStatistics.resources
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmLogin.resources

@@ -44,15 +44,19 @@
             this.btnConfirm = new Guna.UI2.WinForms.Guna2Button();
             this.txtCreatedAt = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblCreatedAt = new System.Windows.Forms.Label();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1.SuspendLayout();
+            this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(96, 28);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(82, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(258, 45);
+            this.label1.Size = new System.Drawing.Size(273, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thông tin Phòng";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -60,8 +64,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 172);
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(11, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 25);
             this.label3.TabIndex = 2;
@@ -71,10 +75,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 123);
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(11, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 25);
+            this.label2.Size = new System.Drawing.Size(100, 25);
             this.label2.TabIndex = 6;
             this.label2.Text = "Mã phòng";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -82,8 +86,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(14, 216);
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(13, 121);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 25);
             this.label4.TabIndex = 7;
@@ -93,10 +97,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(14, 259);
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(13, 164);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 25);
+            this.label5.Size = new System.Drawing.Size(84, 25);
             this.label5.TabIndex = 8;
             this.label5.Text = "Giá thuê";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -104,10 +108,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(14, 304);
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(13, 209);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 25);
+            this.label6.Size = new System.Drawing.Size(89, 25);
             this.label6.TabIndex = 9;
             this.label6.Text = "Diện tích";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -115,16 +119,18 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(12, 348);
+            this.lblStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.Location = new System.Drawing.Point(11, 253);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(96, 25);
+            this.lblStatus.Size = new System.Drawing.Size(97, 25);
             this.lblStatus.TabIndex = 10;
             this.lblStatus.Text = "Trạng thái";
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtRoomID
             // 
+            this.txtRoomID.BorderColor = System.Drawing.Color.Black;
+            this.txtRoomID.BorderRadius = 8;
             this.txtRoomID.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtRoomID.DefaultText = "";
             this.txtRoomID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -135,7 +141,7 @@
             this.txtRoomID.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRoomID.ForeColor = System.Drawing.Color.Black;
             this.txtRoomID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRoomID.Location = new System.Drawing.Point(141, 123);
+            this.txtRoomID.Location = new System.Drawing.Point(134, 28);
             this.txtRoomID.Name = "txtRoomID";
             this.txtRoomID.PlaceholderText = "";
             this.txtRoomID.SelectedText = "";
@@ -144,6 +150,8 @@
             // 
             // txtRoomName
             // 
+            this.txtRoomName.BorderColor = System.Drawing.Color.Black;
+            this.txtRoomName.BorderRadius = 8;
             this.txtRoomName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtRoomName.DefaultText = "";
             this.txtRoomName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -154,7 +162,7 @@
             this.txtRoomName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRoomName.ForeColor = System.Drawing.Color.Black;
             this.txtRoomName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRoomName.Location = new System.Drawing.Point(141, 169);
+            this.txtRoomName.Location = new System.Drawing.Point(134, 74);
             this.txtRoomName.Name = "txtRoomName";
             this.txtRoomName.PlaceholderText = "";
             this.txtRoomName.SelectedText = "";
@@ -163,6 +171,8 @@
             // 
             // txtGiaThue
             // 
+            this.txtGiaThue.BorderColor = System.Drawing.Color.Black;
+            this.txtGiaThue.BorderRadius = 8;
             this.txtGiaThue.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtGiaThue.DefaultText = "";
             this.txtGiaThue.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -173,7 +183,7 @@
             this.txtGiaThue.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaThue.ForeColor = System.Drawing.Color.Black;
             this.txtGiaThue.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGiaThue.Location = new System.Drawing.Point(141, 257);
+            this.txtGiaThue.Location = new System.Drawing.Point(134, 162);
             this.txtGiaThue.Name = "txtGiaThue";
             this.txtGiaThue.PlaceholderText = "";
             this.txtGiaThue.SelectedText = "";
@@ -182,6 +192,8 @@
             // 
             // txtArea
             // 
+            this.txtArea.BorderColor = System.Drawing.Color.Black;
+            this.txtArea.BorderRadius = 8;
             this.txtArea.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtArea.DefaultText = "";
             this.txtArea.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -192,7 +204,7 @@
             this.txtArea.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtArea.ForeColor = System.Drawing.Color.Black;
             this.txtArea.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtArea.Location = new System.Drawing.Point(141, 299);
+            this.txtArea.Location = new System.Drawing.Point(134, 204);
             this.txtArea.Name = "txtArea";
             this.txtArea.PlaceholderText = "";
             this.txtArea.SelectedText = "";
@@ -202,6 +214,8 @@
             // cbRoomType
             // 
             this.cbRoomType.BackColor = System.Drawing.Color.Transparent;
+            this.cbRoomType.BorderColor = System.Drawing.Color.Black;
+            this.cbRoomType.BorderRadius = 8;
             this.cbRoomType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbRoomType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbRoomType.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -209,13 +223,15 @@
             this.cbRoomType.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbRoomType.ForeColor = System.Drawing.Color.Black;
             this.cbRoomType.ItemHeight = 30;
-            this.cbRoomType.Location = new System.Drawing.Point(141, 216);
+            this.cbRoomType.Location = new System.Drawing.Point(134, 121);
             this.cbRoomType.Name = "cbRoomType";
             this.cbRoomType.Size = new System.Drawing.Size(292, 36);
             this.cbRoomType.TabIndex = 2;
             // 
             // txtStatus
             // 
+            this.txtStatus.BorderColor = System.Drawing.Color.Black;
+            this.txtStatus.BorderRadius = 8;
             this.txtStatus.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtStatus.DefaultText = "";
             this.txtStatus.DisabledState.BorderColor = System.Drawing.Color.WhiteSmoke;
@@ -228,7 +244,7 @@
             this.txtStatus.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStatus.ForeColor = System.Drawing.Color.Black;
             this.txtStatus.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtStatus.Location = new System.Drawing.Point(141, 341);
+            this.txtStatus.Location = new System.Drawing.Point(134, 246);
             this.txtStatus.Name = "txtStatus";
             this.txtStatus.PlaceholderText = "";
             this.txtStatus.ReadOnly = true;
@@ -238,15 +254,16 @@
             // 
             // btnConfirm
             // 
-            this.btnConfirm.BorderRadius = 3;
+            this.btnConfirm.BorderColor = System.Drawing.Color.Empty;
+            this.btnConfirm.BorderRadius = 10;
             this.btnConfirm.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnConfirm.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnConfirm.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnConfirm.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnConfirm.FillColor = System.Drawing.Color.Gold;
-            this.btnConfirm.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirm.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnConfirm.Location = new System.Drawing.Point(141, 456);
+            this.btnConfirm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(79)))), ((int)(((byte)(60)))));
+            this.btnConfirm.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirm.ForeColor = System.Drawing.Color.White;
+            this.btnConfirm.Location = new System.Drawing.Point(134, 361);
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(180, 45);
             this.btnConfirm.TabIndex = 19;
@@ -255,6 +272,8 @@
             // 
             // txtCreatedAt
             // 
+            this.txtCreatedAt.BorderColor = System.Drawing.Color.Black;
+            this.txtCreatedAt.BorderRadius = 8;
             this.txtCreatedAt.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtCreatedAt.DefaultText = "";
             this.txtCreatedAt.DisabledState.BorderColor = System.Drawing.Color.WhiteSmoke;
@@ -267,7 +286,7 @@
             this.txtCreatedAt.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCreatedAt.ForeColor = System.Drawing.Color.Black;
             this.txtCreatedAt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCreatedAt.Location = new System.Drawing.Point(141, 388);
+            this.txtCreatedAt.Location = new System.Drawing.Point(134, 293);
             this.txtCreatedAt.Name = "txtCreatedAt";
             this.txtCreatedAt.PlaceholderText = "";
             this.txtCreatedAt.ReadOnly = true;
@@ -278,43 +297,68 @@
             // lblCreatedAt
             // 
             this.lblCreatedAt.AutoSize = true;
-            this.lblCreatedAt.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreatedAt.Location = new System.Drawing.Point(12, 395);
+            this.lblCreatedAt.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCreatedAt.Location = new System.Drawing.Point(11, 300);
             this.lblCreatedAt.Name = "lblCreatedAt";
-            this.lblCreatedAt.Size = new System.Drawing.Size(88, 25);
+            this.lblCreatedAt.Size = new System.Drawing.Size(91, 25);
             this.lblCreatedAt.TabIndex = 21;
             this.lblCreatedAt.Text = "Ngày tạo";
             this.lblCreatedAt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BorderColor = System.Drawing.Color.Black;
+            this.guna2Panel1.BorderRadius = 10;
+            this.guna2Panel1.BorderThickness = 2;
+            this.guna2Panel1.Controls.Add(this.label1);
+            this.guna2Panel1.Location = new System.Drawing.Point(12, 12);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(437, 59);
+            this.guna2Panel1.TabIndex = 22;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BorderColor = System.Drawing.Color.Black;
+            this.guna2Panel2.BorderRadius = 10;
+            this.guna2Panel2.BorderThickness = 2;
+            this.guna2Panel2.Controls.Add(this.cbRoomType);
+            this.guna2Panel2.Controls.Add(this.label3);
+            this.guna2Panel2.Controls.Add(this.txtCreatedAt);
+            this.guna2Panel2.Controls.Add(this.label2);
+            this.guna2Panel2.Controls.Add(this.lblCreatedAt);
+            this.guna2Panel2.Controls.Add(this.label4);
+            this.guna2Panel2.Controls.Add(this.btnConfirm);
+            this.guna2Panel2.Controls.Add(this.label5);
+            this.guna2Panel2.Controls.Add(this.txtStatus);
+            this.guna2Panel2.Controls.Add(this.label6);
+            this.guna2Panel2.Controls.Add(this.lblStatus);
+            this.guna2Panel2.Controls.Add(this.txtArea);
+            this.guna2Panel2.Controls.Add(this.txtRoomID);
+            this.guna2Panel2.Controls.Add(this.txtGiaThue);
+            this.guna2Panel2.Controls.Add(this.txtRoomName);
+            this.guna2Panel2.Location = new System.Drawing.Point(12, 77);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(437, 435);
+            this.guna2Panel2.TabIndex = 23;
             // 
             // frmRoomInfo
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(241)))), ((int)(((byte)(225)))));
             this.ClientSize = new System.Drawing.Size(461, 524);
-            this.Controls.Add(this.txtCreatedAt);
-            this.Controls.Add(this.lblCreatedAt);
-            this.Controls.Add(this.btnConfirm);
-            this.Controls.Add(this.txtStatus);
-            this.Controls.Add(this.cbRoomType);
-            this.Controls.Add(this.txtArea);
-            this.Controls.Add(this.txtGiaThue);
-            this.Controls.Add(this.txtRoomName);
-            this.Controls.Add(this.txtRoomID);
-            this.Controls.Add(this.lblStatus);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.guna2Panel1);
             this.Name = "frmRoomInfo";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Thông tin phòng";
             this.Load += new System.EventHandler(this.frmRoomInfo_Load);
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
+            this.guna2Panel2.ResumeLayout(false);
+            this.guna2Panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -336,5 +380,7 @@
         private Guna.UI2.WinForms.Guna2Button btnConfirm;
         private Guna.UI2.WinForms.Guna2TextBox txtCreatedAt;
         private System.Windows.Forms.Label lblCreatedAt;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
     }
 }
