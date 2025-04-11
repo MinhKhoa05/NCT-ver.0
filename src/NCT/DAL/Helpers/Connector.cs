@@ -9,7 +9,7 @@ namespace DAL.Helpers
     public static class Connector
     {
         private static readonly string _connectionString =
-            "Data Source=.;Initial Catalog=NCT;Integrated Security=True;Connection Timeout=2";
+            @"Data Source=.\SQLEXPRESS;Initial Catalog=NCT;Integrated Security=True;Connection Timeout=2";
 
         private static DbConnection CreateConnection()
         {

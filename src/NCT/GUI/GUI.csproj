@@ -176,6 +176,9 @@
     <EmbeddedResource Include="frmFunction.resx">
       <DependentUpon>frmFunction.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,6 +254,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logoHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoLogin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
