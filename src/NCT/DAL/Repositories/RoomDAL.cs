@@ -17,8 +17,8 @@ namespace DAL.Repositories
 
         public override void Insert(RoomDTO room)
         {
-            string sql = $"INSERT INTO {TableName} ({IDColumn}, RoomName, RoomType, RentPrice, Area, Status) " +
-                $"VALUES (@{IDColumn}, @RoomName, @RoomType, @RentPrice, @Area, @Status)";
+            string sql = $@"INSERT INTO {TableName} ({IDColumn}, RoomName, RoomType, RentPrice, Area)
+                VALUES (@{IDColumn}, @RoomName, @RoomType, @RentPrice, @Area)";
 
             Connector.ExecuteNonQuery(sql, room);
         }

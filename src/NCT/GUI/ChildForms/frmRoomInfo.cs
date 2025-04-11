@@ -12,14 +12,14 @@ namespace GUI.ChildForms
         private readonly RoomDTO room;
         private readonly RoomBUS roomBUS = new RoomBUS();
 
-        public frmRoomInfo(bool isAdd, string roomID = null)
+        public frmRoomInfo(bool isAdd, string id = null)
         {
             InitializeComponent();
             _isAdd = isAdd;
 
             if (!_isAdd)
             {
-                room = roomBUS.GetByID(roomID);
+                room = roomBUS.GetByID(id);
             }
         }
 

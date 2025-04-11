@@ -1,4 +1,6 @@
-﻿CREATE DATABASE NCT;
+﻿DROP DATABASE NCT;
+
+CREATE DATABASE NCT;
 GO
 USE NCT;
 
@@ -25,12 +27,12 @@ CREATE TABLE Room (
 -- 2. Tenant Table
 -- ==========================
 CREATE TABLE Tenant (
-    TenantID        INT IDENTITY(1,1)   PRIMARY KEY,
-    FullName        NVARCHAR(50)        NOT NULL,
+    TenantID        VARCHAR(6)          PRIMARY KEY,
+    FullName        NVARCHAR(30)        NOT NULL,
     PhoneNumber     VARCHAR(20)         NOT NULL,
     Email           NVARCHAR(100)       NULL,
     Address         NVARCHAR(255)       NULL,
-    NationalID      VARCHAR(20)         NULL        UNIQUE, -- CCCD
+    NationalID      CHAR(12)            NULL        UNIQUE, -- CCCD
     RoomID          CHAR(5)		        NULL,
 
     CONSTRAINT FK_Tenant_Room FOREIGN KEY (RoomID) REFERENCES Room(RoomID)
@@ -46,7 +48,7 @@ CREATE TABLE Motorbike (
     Color           NVARCHAR(50)        NULL,
     Note            NVARCHAR(255)       NULL,
     Status          TINYINT             NOT NULL,       -- 0: Inactive, 1: Active
-    TenantID        INT                 NOT NULL,
+    TenantID        VARCHAR(6)          NOT NULL,
 
     CONSTRAINT FK_Motorbike_Tenant FOREIGN KEY (TenantID) REFERENCES Tenant(TenantID)
 );
@@ -60,7 +62,7 @@ CREATE TABLE Pet (
     Species         NVARCHAR(50)        NOT NULL,
     Description     NVARCHAR(255)       NULL,
     Status          TINYINT             NOT NULL,       -- 0: Inactive, 1: Active
-    TenantID        INT                 NOT NULL,
+    TenantID        VARCHAR(6)          NOT NULL,
 
     CONSTRAINT FK_Pet_Tenant FOREIGN KEY (TenantID) REFERENCES Tenant(TenantID)
 );
@@ -70,7 +72,7 @@ CREATE TABLE Pet (
 -- ==========================
 CREATE TABLE RentalContract (
     ContractID          INT IDENTITY(1, 1)  PRIMARY KEY,
-    TenantID            INT                 NOT NULL,
+    TenantID            VARCHAR(6)          NOT NULL,
     RoomID              CHAR(5)		        NOT NULL,
     StartDate           DATE                NOT NULL,
     EndDate             DATE                NOT NULL,
@@ -88,7 +90,7 @@ CREATE TABLE RentalContract (
 -- ==========================
 CREATE TABLE Notification (
     NotificationID      INT IDENTITY(1, 1)  PRIMARY KEY,
-    TenantID            INT                 NULL,
+    TenantID            VARCHAR(6)          NULL,
     Content             NVARCHAR(500)       NOT NULL,
     SentDate            DATE                NOT NULL,
     SendChannel         NVARCHAR(50)        NOT NULL,       -- Email / Zalo / SMS, etc.
@@ -102,7 +104,7 @@ CREATE TABLE Notification (
 -- ==========================
 CREATE TABLE Fingerprint (
     FingerprintID       INT IDENTITY(1, 1)  PRIMARY KEY,
-    TenantID            INT                 NOT NULL,
+    TenantID            VARCHAR(6)          NOT NULL,
     FingerprintTemplate VARBINARY(MAX)      NULL,
     InstallationDate    DATE                NOT NULL,
     Status              TINYINT             NOT NULL,       -- 0: Inactive, 1: Active
@@ -123,7 +125,7 @@ CREATE TABLE Fingerprint (
 CREATE TABLE RoomRentalHistory (
     HistoryID   INT IDENTITY(1, 1)  PRIMARY KEY,
     RoomID      CHAR(5)		        NOT NULL,
-    TenantID    INT                 NOT NULL,
+    TenantID    VARCHAR(6)          NOT NULL,
     MoveInDate  DATE                NOT NULL,
     MoveOutDate DATE                NULL,
     Note        NVARCHAR(255)       NULL,
@@ -180,7 +182,7 @@ CREATE TABLE ServiceUsage (
     
     ServiceID       INT                 NOT NULL,
     RoomID          CHAR(5)             NOT NULL,
-    TenantID        INT                 NULL,           -- Tenant who used the service (optional for personal services)
+    TenantID        VARCHAR(6)          NULL,           -- Tenant who used the service (optional for personal services)
     
     CONSTRAINT FK_ServiceUsage_Service  FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID),
     CONSTRAINT FK_ServiceUsage_Room     FOREIGN KEY (RoomID)    REFERENCES Room(RoomID),
@@ -232,7 +234,7 @@ CREATE TABLE InvoiceDetail (
 CREATE TABLE PaymentHistory (
     PaymentID       INT IDENTITY(1, 1)  PRIMARY KEY,
     InvoiceID       VARCHAR(50)         NOT NULL,       -- Which invoice is paid (if any)
-    TenantID        INT                 NOT NULL,       -- Who made the payment
+    TenantID        VARCHAR(6)          NOT NULL,       -- Who made the payment
     PaymentDate     DATE                NOT NULL,
     Amount          INT                 NOT NULL,
     PaymentMethod   NVARCHAR(50)        NOT NULL,       -- Cash, Bank Transfer, ZaloPay, etc.

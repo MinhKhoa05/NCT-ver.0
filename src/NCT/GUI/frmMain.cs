@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 using GUI.ChildForms;
-using DTO;
 
 namespace GUI
 {
@@ -67,9 +66,9 @@ namespace GUI
 
         #region Menu Events
 
-        private void btnPhong_Click(object sender, EventArgs e) => OpenChildForm(new frmFunction());
+        private void btnPhong_Click(object sender, EventArgs e) => OpenChildForm(new frmFunction("Room"));
         private void btnHopDong_Click(object sender, EventArgs e) => OpenChildForm(new frmContract());
-        private void btnKhach_Click(object sender, EventArgs e) => OpenChildForm(new frmTenant());
+        private void btnKhach_Click(object sender, EventArgs e) => OpenChildForm(new frmFunction("Tenant"));
         private void btnVanTay_Click(object sender, EventArgs e) => OpenChildForm(new frmFingerprint());
         private void btnDienNuoc_Click(object sender, EventArgs e) => OpenChildForm(new frmElectricWater());
         private void btnThanhToan_Click(object sender, EventArgs e) => OpenChildForm(new frmPayment());

@@ -33,7 +33,7 @@ namespace BUS.Services
         public T GetByID(string id) => _baseDal.GetByID(id);
         public T GetByID(int id) => GetByID(id.ToString());
 
-        public void Insert(T entity)
+        public virtual void Insert(T entity)
         {
             if (!ValidatorHelper.TryValidateFirstError(entity, out var error))
                 throw new Exception(error);

@@ -7,32 +7,36 @@ using GUI.Managers;
 namespace GUI
 {
     public partial class frmFunction : Form
-    {       
-        public frmFunction()
+    {
+        private readonly string _type;
+
+        public frmFunction(string type)
         {
             InitializeComponent();
+            _type = type;
         }
 
-        private void LoadDgv()
+        private void frmFunction_Load(object sender, EventArgs e)
         {
-            LoadRoomList();
+            LoadList();
         }
 
-        private void frmFunction_Load(object sender, System.EventArgs e)
+        private void LoadList()
         {
-            LoadDgv();
+            if (_type == "Room")
+                LoadRoomList();
+            else if (_type == "Tenant")
+                LoadTenantList();
         }
 
         private void LoadRoomList()
         {
-            var roomBUS = new RoomBUS();
-            dgv.DataSource = roomBUS.GetAllFromTable();
-            
-            // Ẩn các cột không cần thiết
+            lblTypeList.Text = "Danh sách phòng";
+            dgv.DataSource = new RoomBUS().GetAllFromTable();
+
             dgv.Columns["RoomType"].Visible = false;
             dgv.Columns["Status"].Visible = false;
 
-            // Đổi HeaderText
             dgv.Columns["RoomID"].HeaderText = "Mã phòng";
             dgv.Columns["RoomName"].HeaderText = "Tên phòng";
             dgv.Columns["RentPrice"].HeaderText = "Giá thuê";
@@ -42,14 +46,73 @@ namespace GUI
             dgv.Columns["CreatedAt"].HeaderText = "Ngày tạo";
         }
 
-        private void btnAdd_Click(object sender, System.EventArgs e)
+        private void LoadTenantList()
         {
-            using (var dlg = new frmRoomInfo(true))
+            lblTypeList.Text = "Danh sách khách thuê";
+            dgv.DataSource = new TenantBUS().GetAllFromTable();
+
+            dgv.Columns["TenantID"].HeaderText = "ID";
+            dgv.Columns["TenantID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+
+            dgv.Columns["FullName"].HeaderText = "Họ tên";
+            dgv.Columns["PhoneNumber"].HeaderText = "Số điện thoại";
+            dgv.Columns["Address"].HeaderText = "Địa chỉ";
+            dgv.Columns["NationalID"].HeaderText = "CCCD";
+            dgv.Columns["NationalID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+
+            dgv.Columns["RoomID"].HeaderText = "Phòng";
+            dgv.Columns["RoomID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+
+            lblPhi.Visible = false;
+            lblStatus.Visible = false;
+            lblSearch.Text = "Tên";
+            cbPhi.Visible = false;
+            cbStatus.Visible = false;
+        }
+
+        private Form CreateForm(bool isAdd)
+        {
+            if (isAdd)
             {
-                dlg.ShowDialog();
+                if (_type == "Room")
+                    return new frmRoomInfo(true);
+                if (_type == "Tenant")
+                    return new frmTenantInfo(true);
+            }
+            else
+            {
+                if (dgv.CurrentRow == null) return null;
+
+                string id = null;
+
+                if (_type == "Room")
+                    id = dgv.CurrentRow.Cells["RoomID"].Value?.ToString();
+                else if (_type == "Tenant")
+                    id = dgv.CurrentRow.Cells["TenantID"].Value?.ToString();
+
+                if (_type == "Room")
+                    return new frmRoomInfo(false, id);
+                if (_type == "Tenant")
+                    return new frmTenantInfo(false, id);
             }
 
-            LoadDgv();
+            return null;
+        }
+
+        private void OpenForm(bool isAdd)
+        {
+            using (var form = CreateForm(isAdd))
+            {
+                if (form != null)
+                    form.ShowDialog();
+            }
+
+            LoadList();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            OpenForm(true);
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
@@ -60,15 +123,7 @@ namespace GUI
                 return;
             }
 
-            string roomID = dgv.CurrentRow.Cells["RoomID"].Value?.ToString();
-
-            using (var dlg = new frmRoomInfo(false, roomID))
-            {
-                // TODO: truyền roomID nếu cần xử lý update
-                dlg.ShowDialog();
-            }
-
-            LoadDgv();
+            OpenForm(false);
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -79,22 +134,47 @@ namespace GUI
                 return;
             }
 
-            string roomID = dgv.CurrentRow.Cells["RoomID"].Value?.ToString();
+            Delete();
+        }
 
-            var confirm = MessageBox.Show($"Bạn có chắc muốn xóa phòng '{roomID}' không?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (confirm == DialogResult.Yes)
+        private void Delete()
+        {
+            string id = null;
+            string label = null;
+
+            if (_type == "Room")
             {
-                try
-                {
-                    RoomBUS roomBUS = new RoomBUS();
-                    roomBUS.DeleteById(roomID);
-                    MyMessageBox.ShowInformation("Đã xóa phòng thành công.");
-                    LoadDgv();
-                }
-                catch (Exception ex)
-                {
-                    MyMessageBox.ShowError("Không thể xóa: " + ex.Message);
-                }
+                id = dgv.CurrentRow.Cells["RoomID"].Value?.ToString();
+                label = "Phòng";
+            }
+            else if (_type == "Tenant")
+            {
+                id = dgv.CurrentRow.Cells["TenantID"].Value?.ToString();
+                label = "Khách thuê";
+            }
+
+            if (string.IsNullOrEmpty(id)) return;
+
+            var confirm = MessageBox.Show(
+                $"Bạn có chắc muốn xóa {label} '{id}' không?",
+                "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question
+            );
+
+            if (confirm != DialogResult.Yes) return;
+
+            try
+            {
+                if (_type == "Room")
+                    new RoomBUS().DeleteById(id);
+                else if (_type == "Tenant")
+                    new TenantBUS().DeleteById(id);
+
+                MyMessageBox.ShowInformation("Đã xóa thành công.");
+                LoadList();
+            }
+            catch (Exception ex)
+            {
+                MyMessageBox.ShowError("Không thể xóa: " + ex.Message);
             }
         }
     }
