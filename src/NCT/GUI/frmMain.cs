@@ -6,8 +6,7 @@ namespace GUI
 {
     public partial class frmMain : Form
     {
-        //private AccountDTO _currentAccount;
-        private Form currentForm = null;
+        private Form currentForm;
 
         public frmMain()
         {
@@ -15,38 +14,54 @@ namespace GUI
             ResetPanel();
         }
 
-        //public frmMain(AccountDTO account)
-        //{
-        //    InitializeComponent();
-        //    _currentAccount = account;
-        //    ResetPanel();
-        //}
-
         #region Panel Handling
 
         private void OpenChildForm(Form childForm)
         {
-            if (currentForm != null)
-                currentForm.Close();
+            if (childForm == null)
+            {
+                ResetPanel();
+                return;
+            }
+
+            if (currentForm != null && currentForm.GetType() == childForm.GetType())
+                return;
+
+            CloseCurrentForm();
+
+            currentForm = childForm;
+            currentForm.TopLevel = false;
+            currentForm.FormBorderStyle = FormBorderStyle.None;
+            currentForm.Dock = DockStyle.Fill;
 
             panelDesktop.Controls.Clear();
-            currentForm = childForm;
-
-            if (childForm != null)
-            {
-                childForm.TopLevel = false;
-                childForm.FormBorderStyle = FormBorderStyle.None;
-                childForm.Dock = DockStyle.Fill;
-
-                panelDesktop.Controls.Add(childForm);
-                panelDesktop.Tag = childForm;
-
-                childForm.BringToFront();
-                childForm.Show();
-            }
+            panelDesktop.Controls.Add(currentForm);
+            currentForm.BringToFront();
+            currentForm.Show();
         }
 
-        private void ResetPanel() => OpenChildForm(null);
+        private void CloseCurrentForm()
+        {
+            currentForm?.Close();
+            currentForm = null;
+        }
+
+        private void LoadControl(UserControl control)
+        {
+            if (control == null) return;
+
+            panelDesktop.SuspendLayout();
+            panelDesktop.Controls.Clear();
+            control.Dock = DockStyle.Fill;
+            panelDesktop.Controls.Add(control);
+            panelDesktop.ResumeLayout();
+        }
+
+        private void ResetPanel()
+        {
+            CloseCurrentForm();
+            panelDesktop.Controls.Clear();
+        }
 
         #endregion
 
@@ -66,9 +81,16 @@ namespace GUI
 
         #region Menu Events
 
-        private void btnPhong_Click(object sender, EventArgs e) => OpenChildForm(new frmFunction("Room"));
+        private void LoadForm(string type)
+        {
+            var func = frmFunction.Instance;
+            func.UpdateType(type);
+            LoadControl(func);
+        }
+
+        private void btnPhong_Click(object sender, EventArgs e) => LoadForm("Room");
         private void btnHopDong_Click(object sender, EventArgs e) => OpenChildForm(new frmContract());
-        private void btnKhach_Click(object sender, EventArgs e) => OpenChildForm(new frmFunction("Tenant"));
+        private void btnKhach_Click(object sender, EventArgs e) => LoadForm("Tenant");
         private void btnVanTay_Click(object sender, EventArgs e) => OpenChildForm(new frmFingerprint());
         private void btnDienNuoc_Click(object sender, EventArgs e) => OpenChildForm(new frmElectricWater());
         private void btnThanhToan_Click(object sender, EventArgs e) => OpenChildForm(new frmPayment());
@@ -79,5 +101,4 @@ namespace GUI
 
         #endregion
     }
-
 }

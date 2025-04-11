@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "D:\\NCT-ver.0\\src\\NCT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmfunction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\commands\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\commands\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\commands\\roomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\roomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\commands\\tenantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\tenantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +59,83 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmFunction.Designer.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\frmFunction.Designer.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.Designer.cs",
+              "RelativeToolTip": "GUI\\frmFunction.Designer.cs",
+              "ViewState": "AgIAAGkBAAAAAAAAAAASwHYBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T14:29:43.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI\\frmMain.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
+              "RelativeToolTip": "GUI\\frmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T14:26:36.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI\\frmMain.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs [Design]",
+              "RelativeToolTip": "GUI\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T14:26:36.243Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TenantCommand.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\TenantCommand.cs",
+              "RelativeDocumentMoniker": "GUI\\Commands\\TenantCommand.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\TenantCommand.cs",
+              "RelativeToolTip": "GUI\\Commands\\TenantCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T14:18:34.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomCommand.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\RoomCommand.cs",
+              "RelativeDocumentMoniker": "GUI\\Commands\\RoomCommand.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\RoomCommand.cs",
+              "RelativeToolTip": "GUI\\Commands\\RoomCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T14:18:31.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmFunction.cs",
               "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
               "RelativeDocumentMoniker": "GUI\\frmFunction.cs",
               "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
               "RelativeToolTip": "GUI\\frmFunction.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T14:05:04.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmFunction.cs [Design]",
               "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
               "RelativeDocumentMoniker": "GUI\\frmFunction.cs",
@@ -63,20 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CommandFactory.cs",
               "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\CommandFactory.cs",
               "RelativeDocumentMoniker": "GUI\\Commands\\CommandFactory.cs",
               "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\CommandFactory.cs",
               "RelativeToolTip": "GUI\\Commands\\CommandFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T13:59:04.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CommandBase.cs",
               "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\CommandBase.cs",
               "RelativeDocumentMoniker": "GUI\\Commands\\CommandBase.cs",
@@ -89,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ICommand.cs",
               "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\ICommand.cs",
               "RelativeDocumentMoniker": "GUI\\Commands\\ICommand.cs",

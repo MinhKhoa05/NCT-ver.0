@@ -1,4 +1,6 @@
-﻿namespace GUI.Commands
+﻿using System;
+
+namespace GUI.Commands
 {
     public static class CommandFactory
     {
@@ -11,7 +13,7 @@
                 case "Tenant":
                     return new TenantCommand();
                 default:
-                    return null;
+                    throw new InvalidOperationException($"Không hỗ trợ loại command: {type}");
             }
         }
     }

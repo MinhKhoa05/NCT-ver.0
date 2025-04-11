@@ -80,7 +80,7 @@
     <Compile Include="Commands\CommandBase.cs" />
     <Compile Include="Commands\RoomCommand.cs" />
     <Compile Include="frmFunction.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="frmFunction.Designer.cs">
       <DependentUpon>frmFunction.cs</DependentUpon>
