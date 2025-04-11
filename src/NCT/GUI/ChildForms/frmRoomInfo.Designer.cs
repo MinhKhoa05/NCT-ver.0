@@ -348,6 +348,7 @@
             this.ClientSize = new System.Drawing.Size(461, 524);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
+            this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmRoomInfo";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;

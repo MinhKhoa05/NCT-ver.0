@@ -9,7 +9,7 @@ namespace GUI.ChildForms
     public partial class frmTenantInfo : Form
     {
         private readonly bool _isAdd;
-        private readonly TenantDTO tenant;
+        private readonly Tenant tenant;
         private readonly TenantBUS tenantBUS = new TenantBUS();
         private readonly RoomBUS roomBUS = new RoomBUS();
 
@@ -41,7 +41,7 @@ namespace GUI.ChildForms
             var rooms = roomBUS.GetAllFromTable();
 
             // Thêm dòng mặc định
-            rooms.Insert(0, new RoomDTO
+            rooms.Insert(0, new Room
             {
                 RoomID = string.Empty,
                 RoomName = "-- Chọn phòng --"
@@ -83,7 +83,7 @@ namespace GUI.ChildForms
                     roomID = cbRoom.SelectedValue.ToString();
                 }
 
-                var tenant = new TenantDTO(
+                var tenant = new Tenant(
                     txtTenantID.Text,
                     txtFullName.Text,
                     txtPhone.Text,

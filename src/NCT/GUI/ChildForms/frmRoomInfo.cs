@@ -9,10 +9,10 @@ namespace GUI.ChildForms
     public partial class frmRoomInfo : Form
     {
         private readonly bool _isAdd;
-        private readonly RoomDTO room;
+        private readonly Room room;
         private readonly RoomBUS roomBUS = new RoomBUS();
 
-        public frmRoomInfo(bool isAdd, string id = null)
+        public frmRoomInfo(bool isAdd = true, string id = null)
         {
             InitializeComponent();
             _isAdd = isAdd;
@@ -86,7 +86,7 @@ namespace GUI.ChildForms
                     return;
                 }
 
-                var room = new RoomDTO(roomID, roomName, rentPrice, area, roomType);
+                var room = new Room(roomID, roomName, rentPrice, area, roomType);
 
                 if (_isAdd)
                 {

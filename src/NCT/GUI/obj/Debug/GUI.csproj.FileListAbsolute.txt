@@ -92,7 +92,6 @@ D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmInfoMotel.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmPayment.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoom.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmServices.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenant.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmElectricWater.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmReminder.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmStatistics.resources

@@ -3,12 +3,12 @@ using DTO;
 
 namespace DAL.Repositories
 {
-    public class TenantDAL : BaseDAL<TenantDTO>
+    public class TenantDAL : BaseDAL<Tenant>
     {
         protected override string TableName => "Tenant";
         protected override string IDColumn => "TenantID";
 
-        public override void Insert(TenantDTO tenant)
+        public override void Insert(Tenant tenant)
         {
             string sql = $@"INSERT INTO {TableName} ({IDColumn}, FullName, PhoneNumber, Email, Address, NationalID, RoomID)
                 VALUES (@{IDColumn}, @FullName, @PhoneNumber, @Email, @Address, @NationalID, @RoomID)";
@@ -16,7 +16,7 @@ namespace DAL.Repositories
             Connector.ExecuteNonQuery(sql, tenant);
         }
 
-        public override void Update(TenantDTO tenant)
+        public override void Update(Tenant tenant)
         {
             string sql = $@"UPDATE {TableName} SET
                 FullName = @FullName,

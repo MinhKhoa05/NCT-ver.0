@@ -51,5 +51,7 @@ namespace BUS.Services
 
         public void DeleteById(string id) => _baseDal.DeleteByID(id);
         public void DeleteById(int id) => DeleteById(id.ToString());
+
+        public abstract List<T> Search(string keyword);
     }
 }

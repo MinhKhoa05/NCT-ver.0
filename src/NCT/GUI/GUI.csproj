@@ -74,6 +74,11 @@
     <Compile Include="ChildForms\frmTenantInfo.Designer.cs">
       <DependentUpon>frmTenantInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Commands\CommandFactory.cs" />
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\TenantCommand.cs" />
+    <Compile Include="Commands\CommandBase.cs" />
+    <Compile Include="Commands\RoomCommand.cs" />
     <Compile Include="frmFunction.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,12 +117,6 @@
     </Compile>
     <Compile Include="ChildForms\frmContract.Designer.cs">
       <DependentUpon>frmContract.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ChildForms\frmTenant.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ChildForms\frmTenant.Designer.cs">
-      <DependentUpon>frmTenant.cs</DependentUpon>
     </Compile>
     <Compile Include="ChildForms\frmElectricWater.cs">
       <SubType>Form</SubType>
@@ -192,9 +191,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\frmContract.resx">
       <DependentUpon>frmContract.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ChildForms\frmTenant.resx">
-      <DependentUpon>frmTenant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\frmElectricWater.resx">
       <DependentUpon>frmElectricWater.cs</DependentUpon>

@@ -76,7 +76,7 @@
             this.panelSidebar.Controls.Add(this.panelLogo);
             this.panelSidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSidebar.Location = new System.Drawing.Point(13, 0);
-            this.panelSidebar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelSidebar.Margin = new System.Windows.Forms.Padding(4);
             this.panelSidebar.Name = "panelSidebar";
             this.panelSidebar.Size = new System.Drawing.Size(320, 1046);
             this.panelSidebar.TabIndex = 1;
@@ -95,7 +95,7 @@
             this.btnNhacNho.IconSize = 30;
             this.btnNhacNho.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNhacNho.Location = new System.Drawing.Point(0, 743);
-            this.btnNhacNho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNhacNho.Margin = new System.Windows.Forms.Padding(4);
             this.btnNhacNho.Name = "btnNhacNho";
             this.btnNhacNho.Size = new System.Drawing.Size(320, 62);
             this.btnNhacNho.TabIndex = 14;
@@ -119,7 +119,7 @@
             this.btnInfoTro.IconSize = 30;
             this.btnInfoTro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInfoTro.Location = new System.Drawing.Point(0, 681);
-            this.btnInfoTro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInfoTro.Margin = new System.Windows.Forms.Padding(4);
             this.btnInfoTro.Name = "btnInfoTro";
             this.btnInfoTro.Size = new System.Drawing.Size(320, 62);
             this.btnInfoTro.TabIndex = 13;
@@ -143,7 +143,7 @@
             this.btnKhac.IconSize = 30;
             this.btnKhac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKhac.Location = new System.Drawing.Point(0, 619);
-            this.btnKhac.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnKhac.Margin = new System.Windows.Forms.Padding(4);
             this.btnKhac.Name = "btnKhac";
             this.btnKhac.Size = new System.Drawing.Size(320, 62);
             this.btnKhac.TabIndex = 12;
@@ -167,7 +167,7 @@
             this.btnThongke.IconSize = 30;
             this.btnThongke.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThongke.Location = new System.Drawing.Point(0, 557);
-            this.btnThongke.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThongke.Margin = new System.Windows.Forms.Padding(4);
             this.btnThongke.Name = "btnThongke";
             this.btnThongke.Size = new System.Drawing.Size(320, 62);
             this.btnThongke.TabIndex = 11;
@@ -191,7 +191,7 @@
             this.btnThanhToan.IconSize = 30;
             this.btnThanhToan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThanhToan.Location = new System.Drawing.Point(0, 495);
-            this.btnThanhToan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThanhToan.Margin = new System.Windows.Forms.Padding(4);
             this.btnThanhToan.Name = "btnThanhToan";
             this.btnThanhToan.Size = new System.Drawing.Size(320, 62);
             this.btnThanhToan.TabIndex = 10;
@@ -215,7 +215,7 @@
             this.btnDienNuoc.IconSize = 30;
             this.btnDienNuoc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDienNuoc.Location = new System.Drawing.Point(0, 433);
-            this.btnDienNuoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDienNuoc.Margin = new System.Windows.Forms.Padding(4);
             this.btnDienNuoc.Name = "btnDienNuoc";
             this.btnDienNuoc.Size = new System.Drawing.Size(320, 62);
             this.btnDienNuoc.TabIndex = 7;
@@ -239,7 +239,7 @@
             this.btnVanTay.IconSize = 30;
             this.btnVanTay.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVanTay.Location = new System.Drawing.Point(0, 371);
-            this.btnVanTay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnVanTay.Margin = new System.Windows.Forms.Padding(4);
             this.btnVanTay.Name = "btnVanTay";
             this.btnVanTay.Size = new System.Drawing.Size(320, 62);
             this.btnVanTay.TabIndex = 5;
@@ -263,7 +263,7 @@
             this.btnKhach.IconSize = 30;
             this.btnKhach.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKhach.Location = new System.Drawing.Point(0, 309);
-            this.btnKhach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnKhach.Margin = new System.Windows.Forms.Padding(4);
             this.btnKhach.Name = "btnKhach";
             this.btnKhach.Size = new System.Drawing.Size(320, 62);
             this.btnKhach.TabIndex = 4;
@@ -287,7 +287,7 @@
             this.btnHopDong.IconSize = 30;
             this.btnHopDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHopDong.Location = new System.Drawing.Point(0, 247);
-            this.btnHopDong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHopDong.Margin = new System.Windows.Forms.Padding(4);
             this.btnHopDong.Name = "btnHopDong";
             this.btnHopDong.Size = new System.Drawing.Size(320, 62);
             this.btnHopDong.TabIndex = 3;
@@ -311,7 +311,7 @@
             this.btnPhong.IconSize = 30;
             this.btnPhong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPhong.Location = new System.Drawing.Point(0, 185);
-            this.btnPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPhong.Margin = new System.Windows.Forms.Padding(4);
             this.btnPhong.Name = "btnPhong";
             this.btnPhong.Size = new System.Drawing.Size(320, 62);
             this.btnPhong.TabIndex = 1;
@@ -326,7 +326,7 @@
             this.panelLogo.Controls.Add(this.picLogo);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(320, 185);
             this.panelLogo.TabIndex = 0;
@@ -337,7 +337,7 @@
             this.picLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
             this.picLogo.Location = new System.Drawing.Point(0, 0);
-            this.picLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picLogo.Margin = new System.Windows.Forms.Padding(4);
             this.picLogo.Name = "picLogo";
             this.picLogo.Size = new System.Drawing.Size(320, 185);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -354,7 +354,7 @@
             this.panelTopbar.Controls.Add(this.iconCurrent);
             this.panelTopbar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTopbar.Location = new System.Drawing.Point(333, 0);
-            this.panelTopbar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelTopbar.Margin = new System.Windows.Forms.Padding(4);
             this.panelTopbar.Name = "panelTopbar";
             this.panelTopbar.Size = new System.Drawing.Size(1534, 86);
             this.panelTopbar.TabIndex = 2;
@@ -370,7 +370,7 @@
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.Location = new System.Drawing.Point(1349, 12);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(155, 62);
             this.btnLogout.TabIndex = 3;
@@ -385,7 +385,7 @@
             this.btnUser.IconSize = 50;
             this.btnUser.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnUser.Location = new System.Drawing.Point(1259, 12);
-            this.btnUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUser.Margin = new System.Windows.Forms.Padding(4);
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(67, 62);
             this.btnUser.TabIndex = 2;
@@ -399,7 +399,7 @@
             this.labelCurrent.Location = new System.Drawing.Point(84, 26);
             this.labelCurrent.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCurrent.Name = "labelCurrent";
-            this.labelCurrent.Size = new System.Drawing.Size(110, 30);
+            this.labelCurrent.Size = new System.Drawing.Size(142, 37);
             this.labelCurrent.TabIndex = 1;
             this.labelCurrent.Text = "Trang chủ";
             // 
@@ -412,7 +412,7 @@
             this.iconCurrent.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconCurrent.IconSize = 39;
             this.iconCurrent.Location = new System.Drawing.Point(33, 23);
-            this.iconCurrent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconCurrent.Margin = new System.Windows.Forms.Padding(4);
             this.iconCurrent.Name = "iconCurrent";
             this.iconCurrent.Size = new System.Drawing.Size(43, 39);
             this.iconCurrent.TabIndex = 0;
@@ -425,7 +425,7 @@
             this.panelDesktop.Controls.Add(this.panelContent);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(333, 86);
-            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4);
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Size = new System.Drawing.Size(1534, 960);
             this.panelDesktop.TabIndex = 3;
@@ -438,7 +438,7 @@
             this.guna2Panel1.BorderThickness = 3;
             this.guna2Panel1.Controls.Add(this.label1);
             this.guna2Panel1.Location = new System.Drawing.Point(247, 46);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1040, 86);
             this.guna2Panel1.TabIndex = 2;
@@ -451,14 +451,14 @@
             this.label1.Location = new System.Drawing.Point(212, 16);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(463, 45);
+            this.label1.Size = new System.Drawing.Size(580, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "Phần mềm Quản lý Phòng trọ";
             // 
             // panelContent
             // 
             this.panelContent.Location = new System.Drawing.Point(76, 160);
-            this.panelContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelContent.Margin = new System.Windows.Forms.Padding(4);
             this.panelContent.Name = "panelContent";
             this.panelContent.Size = new System.Drawing.Size(1381, 738);
             this.panelContent.TabIndex = 1;
@@ -472,7 +472,7 @@
             this.Controls.Add(this.panelTopbar);
             this.Controls.Add(this.panelSidebar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMain";
             this.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
