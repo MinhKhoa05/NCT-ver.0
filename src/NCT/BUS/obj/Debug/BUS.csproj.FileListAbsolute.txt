@@ -50,3 +50,10 @@ D:\NCT-ver.0\src\NCT\BUS\bin\Debug\DAL.dll.config
 D:\NCT-ver.0\src\NCT\BUS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 D:\NCT-ver.0\src\NCT\BUS\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\NCT-ver.0\src\NCT\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\bin\Debug\BUS.dll.config
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\bin\Debug\DAL.dll.config
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\bin\Debug\System.Threading.Tasks.Extensions.xml
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

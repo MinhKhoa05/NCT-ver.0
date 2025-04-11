@@ -50,3 +50,4 @@ D:\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.dll
 D:\NCT-ver.0\src\NCT\DAL\obj\Debug\DAL.pdb
 D:\NCT-ver.0\src\NCT\DAL\bin\Debug\DAL.dll.config
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\DAL\bin\Debug\DAL.dll.config
