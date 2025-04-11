@@ -58,7 +58,7 @@ namespace GUI.ChildForms
         private void LoadCbRoomType()
         {
             cbRoomType.Items.Clear();
-            cbRoomType.Items.Add("Trống");
+            cbRoomType.Items.Add("Phòng trống");
             cbRoomType.Items.Add("Vật dụng cơ bản");
             cbRoomType.SelectedIndex = 0;
         }

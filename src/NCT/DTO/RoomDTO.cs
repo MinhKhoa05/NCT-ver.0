@@ -24,7 +24,7 @@ namespace DTO
 
 
         // Thuộc tính phụ hiển thị - Dapper tự động bỏ qua
-        public string RoomTypeValue => RoomType ? "Có vật dụng cơ bản" : "Không vật dụng";
+        public string RoomTypeValue => RoomType ? "Vật dụng cơ bản" : "Phòng trống";
 
         public string StatusValue => Status ? "Đang thuê" : "Trống";
         public DateTime CreatedAt { get; set; }
