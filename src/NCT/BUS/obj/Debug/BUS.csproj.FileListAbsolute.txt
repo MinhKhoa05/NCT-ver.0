@@ -43,3 +43,10 @@ D:\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.dll
 D:\NCT-ver.0\src\NCT\BUS\obj\Debug\BUS.pdb
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\BUS.dll.config
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\DAL.dll.config
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\NCT-ver.0\src\NCT\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

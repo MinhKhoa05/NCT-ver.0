@@ -7,7 +7,7 @@ namespace GUI
 {
     public partial class frmMain : Form
     {
-        private AccountDTO _currentAccount;
+        //private AccountDTO _currentAccount;
         private Form currentForm = null;
 
         public frmMain()
@@ -67,7 +67,7 @@ namespace GUI
 
         #region Menu Events
 
-        private void btnPhong_Click(object sender, EventArgs e) => OpenChildForm(new frmRoom());
+        private void btnPhong_Click(object sender, EventArgs e) => OpenChildForm(new frmFunction());
         private void btnHopDong_Click(object sender, EventArgs e) => OpenChildForm(new frmContract());
         private void btnKhach_Click(object sender, EventArgs e) => OpenChildForm(new frmTenant());
         private void btnVanTay_Click(object sender, EventArgs e) => OpenChildForm(new frmFingerprint());

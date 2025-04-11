@@ -1,12 +1,361 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\NCT-ver.0\\src\\NCT\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\childforms\\frmroominfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmroominfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmroominfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmroominfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\managers\\custommessagebox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\managers\\custommessagebox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\managers\\custommessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\managers\\custommessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|D:\\NCT-ver.0\\src\\NCT\\bus\\services\\basebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|solutionrelative:bus\\services\\basebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|D:\\NCT-ver.0\\src\\NCT\\dal\\repositories\\basedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\basedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|D:\\NCT-ver.0\\src\\NCT\\dal\\repositories\\roomdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\roomdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|D:\\NCT-ver.0\\src\\NCT\\dal\\helpers\\connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|solutionrelative:dal\\helpers\\connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|D:\\NCT-ver.0\\src\\NCT\\dto\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|solutionrelative:dto\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\managers\\custommessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\managers\\custommessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\managers\\mymessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\managers\\mymessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\frmfunction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmroominfo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmroominfo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|D:\\NCT-ver.0\\src\\NCT\\bus\\services\\roombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|solutionrelative:bus\\services\\roombus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|D:\\NCT-ver.0\\src\\NCT\\bus\\helpers\\validatorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|solutionrelative:bus\\helpers\\validatorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmRoomInfo.cs [Design]",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmRoomInfo.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.cs [Design]",
+              "RelativeToolTip": "GUI\\ChildForms\\frmRoomInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:28:12.485Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmRoomInfo.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmRoomInfo.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.cs",
+              "RelativeToolTip": "GUI\\ChildForms\\frmRoomInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:29:40.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomMessageBox.Designer.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Managers\\CustomMessageBox.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\Managers\\CustomMessageBox.Designer.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Managers\\CustomMessageBox.Designer.cs",
+              "RelativeToolTip": "GUI\\Managers\\CustomMessageBox.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:13:47.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Connector.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Helpers\\Connector.cs",
+              "RelativeDocumentMoniker": "DAL\\Helpers\\Connector.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Helpers\\Connector.cs",
+              "RelativeToolTip": "DAL\\Helpers\\Connector.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:47:48.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoomDTO.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DTO\\RoomDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\RoomDTO.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DTO\\RoomDTO.cs",
+              "RelativeToolTip": "DTO\\RoomDTO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:54:35.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomMessageBox.cs [Design]",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Managers\\CustomMessageBox.cs",
+              "RelativeDocumentMoniker": "GUI\\Managers\\CustomMessageBox.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Managers\\CustomMessageBox.cs [Design]",
+              "RelativeToolTip": "GUI\\Managers\\CustomMessageBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:26:10.766Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmFunction.cs [Design]",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
+              "RelativeDocumentMoniker": "GUI\\frmFunction.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs [Design]",
+              "RelativeToolTip": "GUI\\frmFunction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:15:45.119Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmFunction.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
+              "RelativeDocumentMoniker": "GUI\\frmFunction.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
+              "RelativeToolTip": "GUI\\frmFunction.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAiwFcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:15:46.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseBUS.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\BaseBUS.cs",
+              "RelativeDocumentMoniker": "BUS\\Services\\BaseBUS.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\BaseBUS.cs",
+              "RelativeToolTip": "BUS\\Services\\BaseBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:08:10.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomDAL.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\RoomDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\RoomDAL.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\RoomDAL.cs",
+              "RelativeToolTip": "DAL\\Repositories\\RoomDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:53:30.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseDAL.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\BaseDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\BaseDAL.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\BaseDAL.cs",
+              "RelativeToolTip": "DAL\\Repositories\\BaseDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:52:36.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "app.manifest",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\app.manifest",
+              "RelativeDocumentMoniker": "GUI\\app.manifest",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\app.manifest",
+              "RelativeToolTip": "GUI\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-04-11T09:15:43.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomMessageBox.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Managers\\CustomMessageBox.cs",
+              "RelativeDocumentMoniker": "GUI\\Managers\\CustomMessageBox.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Managers\\CustomMessageBox.cs",
+              "RelativeToolTip": "GUI\\Managers\\CustomMessageBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:13:36.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyMessageBox.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Managers\\MyMessageBox.cs",
+              "RelativeDocumentMoniker": "GUI\\Managers\\MyMessageBox.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Managers\\MyMessageBox.cs",
+              "RelativeToolTip": "GUI\\Managers\\MyMessageBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:13:28.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmFunction.Designer.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\frmFunction.Designer.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.Designer.cs",
+              "RelativeToolTip": "GUI\\frmFunction.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:31:12.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmRoomInfo.Designer.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmRoomInfo.Designer.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.Designer.cs",
+              "RelativeToolTip": "GUI\\ChildForms\\frmRoomInfo.Designer.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAowLUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:43:44.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmRegister.cs [Design]",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmRegister.cs",
+              "RelativeDocumentMoniker": "GUI\\frmRegister.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmRegister.cs [Design]",
+              "RelativeToolTip": "GUI\\frmRegister.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:31:18.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RoomBUS.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\RoomBUS.cs",
+              "RelativeDocumentMoniker": "BUS\\Services\\RoomBUS.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\RoomBUS.cs",
+              "RelativeToolTip": "BUS\\Services\\RoomBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:08:01.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ValidatorHelper.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Helpers\\ValidatorHelper.cs",
+              "RelativeDocumentMoniker": "BUS\\Helpers\\ValidatorHelper.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Helpers\\ValidatorHelper.cs",
+              "RelativeToolTip": "BUS\\Helpers\\ValidatorHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:08:51.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI\\frmMain.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
+              "RelativeToolTip": "GUI\\frmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:18:07.383Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -369,7 +369,7 @@
             this.btnLogout.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(79)))), ((int)(((byte)(60)))));
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Location = new System.Drawing.Point(1359, 12);
+            this.btnLogout.Location = new System.Drawing.Point(1350, 12);
             this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(155, 62);
@@ -383,7 +383,7 @@
             this.btnUser.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnUser.IconSize = 50;
             this.btnUser.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnUser.Location = new System.Drawing.Point(1268, 12);
+            this.btnUser.Location = new System.Drawing.Point(1259, 12);
             this.btnUser.Margin = new System.Windows.Forms.Padding(4);
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(67, 62);
@@ -475,7 +475,6 @@
             this.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang chủ";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelSidebar.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();

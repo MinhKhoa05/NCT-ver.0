@@ -12,11 +12,13 @@ USE NCT;
 -- 1. Room Table
 -- ==========================
 CREATE TABLE Room (
-    RoomID      VARCHAR(10)     PRIMARY KEY,
-    RoomType    NVARCHAR(50)    NOT NULL,
-    RentPrice   INT             NOT NULL,
-    Area        INT             NOT NULL,
-    Status      TINYINT         NOT NULL        -- 0: Available, 1: Occupied, etc.
+    RoomID      CHAR(5)             PRIMARY KEY,  -- Mã phòng định dạng A0001, B0002
+    RoomName    NVARCHAR(20)        NOT NULL UNIQUE, -- Tên hiển thị (ví dụ: "Phòng A01")
+    RoomType    BIT			        NOT NULL DEFAULT 0, -- Phòng trống
+    RentPrice   INT                 NOT NULL,     -- Giá thuê (VNĐ)
+    Area        INT                 NOT NULL,     -- Diện tích (m²)
+    Status      BIT		            NOT NULL DEFAULT 0, -- 0: Trống, 1: Đang thuê
+	CreatedAt   DATETIME			DEFAULT GETDATE()
 );
 
 -- ==========================
@@ -29,7 +31,7 @@ CREATE TABLE Tenant (
     Email           NVARCHAR(100)       NULL,
     Address         NVARCHAR(255)       NULL,
     NationalID      VARCHAR(20)         NULL        UNIQUE, -- CCCD
-    RoomID          VARCHAR(10)         NULL,
+    RoomID          CHAR(5)		        NULL,
 
     CONSTRAINT FK_Tenant_Room FOREIGN KEY (RoomID) REFERENCES Room(RoomID)
 );
@@ -69,7 +71,7 @@ CREATE TABLE Pet (
 CREATE TABLE RentalContract (
     ContractID          INT IDENTITY(1, 1)  PRIMARY KEY,
     TenantID            INT                 NOT NULL,
-    RoomID              VARCHAR(10)         NOT NULL,
+    RoomID              CHAR(5)		        NOT NULL,
     StartDate           DATE                NOT NULL,
     EndDate             DATE                NOT NULL,
     RentPrice           INT                 NOT NULL,
@@ -120,7 +122,7 @@ CREATE TABLE Fingerprint (
 -- ======================================
 CREATE TABLE RoomRentalHistory (
     HistoryID   INT IDENTITY(1, 1)  PRIMARY KEY,
-    RoomID      VARCHAR(10)         NOT NULL,
+    RoomID      CHAR(5)		        NOT NULL,
     TenantID    INT                 NOT NULL,
     MoveInDate  DATE                NOT NULL,
     MoveOutDate DATE                NULL,
@@ -144,7 +146,7 @@ CREATE TABLE Furniture (
 -- 10. BasicFurnitureInRoom Table (Room + Furniture Mapping)
 -- ======================================
 CREATE TABLE BasicFurnitureInRoom (
-    RoomID      VARCHAR(10)     NOT NULL,
+    RoomID      CHAR(5)		    NOT NULL,
     FurnitureID INT             NOT NULL,
     Quantity    INT             NOT NULL,
     Condition   NVARCHAR(50)    NOT NULL,    -- Example: New, Good, Needs Repair
@@ -177,7 +179,7 @@ CREATE TABLE ServiceUsage (
     Quantity        INT                 NOT NULL,
     
     ServiceID       INT                 NOT NULL,
-    RoomID          VARCHAR(10)         NOT NULL,
+    RoomID          CHAR(5)             NOT NULL,
     TenantID        INT                 NULL,           -- Tenant who used the service (optional for personal services)
     
     CONSTRAINT FK_ServiceUsage_Service  FOREIGN KEY (ServiceID) REFERENCES Service(ServiceID),
@@ -196,7 +198,7 @@ CREATE TABLE ServiceUsage (
 -- ==========================
 CREATE TABLE Invoice (
     InvoiceID       VARCHAR(50)         PRIMARY KEY,
-    RoomID          VARCHAR(10)         NOT NULL,
+    RoomID          CHAR(5)		        NOT NULL,
     IssueDate       DATE                NOT NULL,
     TotalAmount     INT                 NOT NULL,
     AmountPaid      INT                 NOT NULL DEFAULT 0,

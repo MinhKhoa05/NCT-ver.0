@@ -96,3 +96,14 @@ D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenant.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmElectricWater.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmReminder.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmStatistics.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmFunction.resources
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe.config
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.dll.config
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.dll.config
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoomInfo.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Managers.CustomMessageBox.resources
