@@ -243,6 +243,15 @@ CREATE TABLE PaymentHistory (
 );
 
 
+CREATE TABLE Account (
+    AccountID   INT IDENTITY(1,1)   PRIMARY KEY,
+    Username    VARCHAR(15)         NOT NULL,
+    Pass        VARCHAR(15)         NOT NULL,
+);
+
+INSERT INTO Account (Username, Pass) VALUES ('admin', '123456');
+
+
 -- TRIGGER: Cập nhật trạng thái phòng và thông tin khách thuê khi thêm/cập nhật hợp đồng
 GO
 CREATE TRIGGER trg_ContractRoom

@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Helpers\ValidatorHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AccountBUS.cs" />
     <Compile Include="Services\BaseBUS.cs" />
     <Compile Include="Services\ContractBUS.cs" />
     <Compile Include="Services\RoomBUS.cs" />

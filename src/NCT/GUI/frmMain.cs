@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Windows.Forms;
+using DTO;
 
 namespace GUI
 {
     public partial class frmMain : Form
     {
         private string _currentType = string.Empty;
+        private Account _account;
 
-        public frmMain()
+
+        public frmMain(Account account)
         {
             InitializeComponent();
+            _account = account;
         }
 
         #region Content Display

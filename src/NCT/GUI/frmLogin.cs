@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS.Services;
+using DTO;
+using GUI.Managers;
 
 namespace GUI
 {
@@ -19,10 +15,25 @@ namespace GUI
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            frmMain mainForm = new frmMain();
-            mainForm.Show();
-            this.Hide();
-            mainForm.FormClosed += (s, args) => this.Close();
+            try
+            {
+                Account account = new AccountBUS().Login(txtUsername.Text, txtPass.Text);
+                MyMessageBox.ShowInformation("Đăng nhập thành công");
+
+                this.Hide();
+
+                using (frmMain frmMain = new frmMain(account))
+                {
+                    frmMain.ShowDialog();
+                }
+
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MyMessageBox.ShowError(ex.Message);
+                txtUsername.Focus();
+            }
         }
     }
 }
