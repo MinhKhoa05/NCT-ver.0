@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
 
-namespace GUI.Managers
+namespace GUI.Helpers
 {
     public partial class CustomMessageBox : Form
     {

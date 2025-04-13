@@ -142,7 +142,7 @@
             this.btnKhac.Name = "btnKhac";
             this.btnKhac.Size = new System.Drawing.Size(320, 62);
             this.btnKhac.TabIndex = 12;
-            this.btnKhac.Text = "Các dịch vụ khác";
+            this.btnKhac.Text = "Quản lý dịch vụ";
             this.btnKhac.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKhac.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnKhac.UseVisualStyleBackColor = false;

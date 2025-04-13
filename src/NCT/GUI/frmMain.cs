@@ -9,7 +9,6 @@ namespace GUI
         private string _currentType = string.Empty;
         private Account _account;
 
-
         public frmMain(Account account)
         {
             InitializeComponent();
@@ -61,7 +60,7 @@ namespace GUI
         private void btnDienNuoc_Click(object sender, EventArgs e) => ShowFunction("DienNuoc");
         private void btnThanhToan_Click(object sender, EventArgs e) => ShowFunction("ThanhToan");
         private void btnThongke_Click(object sender, EventArgs e) => ShowFunction("ThongKe");
-        private void btnKhac_Click(object sender, EventArgs e) => ShowFunction("DichVu");
+        private void btnKhac_Click(object sender, EventArgs e) => ShowFunction("Service");
         private void btnInfoTro_Click(object sender, EventArgs e) => ShowFunction("ThongTinTro");
         private void btnNhacNho_Click(object sender, EventArgs e) => ShowFunction("NhacNho");
 

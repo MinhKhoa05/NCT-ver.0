@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using BUS.Services;
 using DTO;
-using GUI.Managers;
+using GUI.Helpers;
 
 namespace GUI
 {
@@ -20,19 +20,37 @@ namespace GUI
                 Account account = new AccountBUS().Login(txtUsername.Text, txtPass.Text);
                 MyMessageBox.ShowInformation("Đăng nhập thành công");
 
-                this.Hide();
+                Hide();
 
                 using (frmMain frmMain = new frmMain(account))
                 {
                     frmMain.ShowDialog();
                 }
 
-                this.Close();
+                Close();
             }
             catch (Exception ex)
             {
                 MyMessageBox.ShowError(ex.Message);
                 txtUsername.Focus();
+            }
+        }
+
+        private void txtUsername_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                btnLogin.PerformClick();
+            }
+        }
+
+        private void txtPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                btnLogin.PerformClick();
             }
         }
     }

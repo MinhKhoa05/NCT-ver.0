@@ -3,52 +3,48 @@
   "WorkspaceRootPath": "D:\\NCT-ver.0\\src\\NCT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|d:\\nct-ver.0\\src\\nct\\dal\\repositories\\servicedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\servicedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|d:\\nct-ver.0\\src\\nct\\dal\\repositories\\tenantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\tenantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|d:\\nct-ver.0\\src\\nct\\dto\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|solutionrelative:dto\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmserviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmserviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmserviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmserviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmcontractinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmcontractinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|d:\\nct-ver.0\\src\\nct\\bus\\services\\accountbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|solutionrelative:bus\\services\\accountbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|d:\\nct-ver.0\\src\\nct\\dto\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|solutionrelative:dto\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|d:\\nct-ver.0\\src\\nct\\bus\\services\\basebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|solutionrelative:bus\\services\\basebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|d:\\nct-ver.0\\src\\nct\\bus\\services\\contractbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B399B33-E53E-4499-A9F8-4A065DEE57B3}|BUS\\BUS.csproj|solutionrelative:bus\\services\\contractbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|d:\\nct-ver.0\\src\\nct\\dal\\repositories\\accountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BEC3467-5A89-4B75-ACC4-18B5BD417307}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\accountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|d:\\nct-ver.0\\src\\nct\\dto\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|solutionrelative:dto\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|d:\\nct-ver.0\\src\\nct\\dto\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|solutionrelative:dto\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|D:\\NCT-ver.0\\src\\NCT\\gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,164 +54,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceDAL.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\ServiceDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\ServiceDAL.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\ServiceDAL.cs",
+              "RelativeToolTip": "DAL\\Repositories\\ServiceDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:33:47.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TenantDAL.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\TenantDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\TenantDAL.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\TenantDAL.cs",
+              "RelativeToolTip": "DAL\\Repositories\\TenantDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:33:43.905Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
-              "RelativeDocumentMoniker": "GUI\\frmMain.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
-              "RelativeToolTip": "GUI\\frmMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Service.cs",
+              "RelativeDocumentMoniker": "DTO\\Service.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Service.cs",
+              "RelativeToolTip": "DTO\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:13:17.896Z",
+              "WhenOpened": "2025-04-13T14:32:00.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "frmServiceInfo.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmServiceInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmServiceInfo.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmServiceInfo.cs",
+              "RelativeToolTip": "GUI\\ChildForms\\frmServiceInfo.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwFcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:29:17.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmServiceInfo.cs [Design]",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmServiceInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmServiceInfo.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmServiceInfo.cs [Design]",
+              "RelativeToolTip": "GUI\\ChildForms\\frmServiceInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:28:31.336Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmContractInfo.cs [Design]",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmContractInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmContractInfo.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmContractInfo.cs [Design]",
+              "RelativeToolTip": "GUI\\ChildForms\\frmContractInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:28:29.313Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "frmMain.cs [Design]",
               "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
               "RelativeDocumentMoniker": "GUI\\frmMain.cs",
               "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs [Design]",
               "RelativeToolTip": "GUI\\frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:13:16.551Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmHome.cs [Design]",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmHome.cs",
-              "RelativeDocumentMoniker": "GUI\\frmHome.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmHome.cs [Design]",
-              "RelativeToolTip": "GUI\\frmHome.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:13:14.917Z",
+              "WhenOpened": "2025-04-13T14:28:10.89Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "BaseBUS.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\BaseBUS.cs",
-              "RelativeDocumentMoniker": "BUS\\Services\\BaseBUS.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\BaseBUS.cs",
-              "RelativeToolTip": "BUS\\Services\\BaseBUS.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAArAAAAAAAAAA==",
+              "Title": "frmFunction.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
+              "RelativeDocumentMoniker": "GUI\\frmFunction.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
+              "RelativeToolTip": "GUI\\frmFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:11:28.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ContractBUS.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\ContractBUS.cs",
-              "RelativeDocumentMoniker": "BUS\\Services\\ContractBUS.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\ContractBUS.cs",
-              "RelativeToolTip": "BUS\\Services\\ContractBUS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:11:26.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountBUS.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\AccountBUS.cs",
-              "RelativeDocumentMoniker": "BUS\\Services\\AccountBUS.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\BUS\\Services\\AccountBUS.cs",
-              "RelativeToolTip": "BUS\\Services\\AccountBUS.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:08:09.829Z",
+              "WhenOpened": "2025-04-13T14:27:29.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AccountDAL.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\AccountDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\AccountDAL.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DAL\\Repositories\\AccountDAL.cs",
-              "RelativeToolTip": "DAL\\Repositories\\AccountDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Title": "frmLogin.Designer.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\frmLogin.Designer.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmLogin.Designer.cs",
+              "RelativeToolTip": "GUI\\frmLogin.Designer.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowBYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:05:04.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T14:24:18.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Room.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Room.cs",
-              "RelativeDocumentMoniker": "DTO\\Room.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Room.cs",
-              "RelativeToolTip": "DTO\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:03:53.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Contract.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Contract.cs",
-              "RelativeDocumentMoniker": "DTO\\Contract.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Contract.cs",
-              "RelativeToolTip": "DTO\\Contract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:03:48.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Account.cs",
-              "RelativeDocumentMoniker": "DTO\\Account.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Account.cs",
-              "RelativeToolTip": "DTO\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:02:41.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmLogin.cs",
               "RelativeDocumentMoniker": "GUI\\frmLogin.cs",
               "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmLogin.cs",
               "RelativeToolTip": "GUI\\frmLogin.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvyIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T10:58:02Z",
+              "WhenOpened": "2025-04-13T14:22:58.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmLogin.cs",
               "RelativeDocumentMoniker": "GUI\\frmLogin.cs",
               "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmLogin.cs [Design]",
               "RelativeToolTip": "GUI\\frmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T10:58:00.844Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-13T14:22:55.433Z"
             }
           ]
         }

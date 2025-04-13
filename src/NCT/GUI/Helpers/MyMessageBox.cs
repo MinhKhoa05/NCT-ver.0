@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace GUI.Managers
+namespace GUI.Helpers
 {
     public static class MyMessageBox
     {

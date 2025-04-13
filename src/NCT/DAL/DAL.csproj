@@ -69,6 +69,7 @@
     <Compile Include="Repositories\BaseDAL.cs" />
     <Compile Include="Repositories\ContractDAL.cs" />
     <Compile Include="Repositories\RoomDAL.cs" />
+    <Compile Include="Repositories\ServiceDAL.cs" />
     <Compile Include="Repositories\TenantDAL.cs" />
   </ItemGroup>
   <ItemGroup>

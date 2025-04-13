@@ -48,7 +48,7 @@ namespace DAL.Repositories
 
         public abstract void Insert(T entity);
         public abstract void Update(T entity);
-        public abstract List<T> Search(string keyword);
+        public virtual List<T> Search(string keyword) { return null; }
 
         #endregion
     }

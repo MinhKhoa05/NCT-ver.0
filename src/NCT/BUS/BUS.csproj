@@ -59,6 +59,7 @@
     <Compile Include="Services\BaseBUS.cs" />
     <Compile Include="Services\ContractBUS.cs" />
     <Compile Include="Services\RoomBUS.cs" />
+    <Compile Include="Services\ServiceBUS.cs" />
     <Compile Include="Services\TenantBUS.cs" />
   </ItemGroup>
   <ItemGroup>

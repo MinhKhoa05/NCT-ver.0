@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using BUS.Services;
 using DTO;
-using GUI.Managers;
+using GUI.Helpers;
 
 namespace GUI.ChildForms
 {
