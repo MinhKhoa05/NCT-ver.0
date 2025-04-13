@@ -55,16 +55,6 @@ B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.Up2Date
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.exe
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.pdb
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmMain.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmContract.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmCustomer.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmElecWater.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmFingerprint.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmInfoMotel.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmPayment.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmRemind.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmRoom.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmServices.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.UserControl.frmStatisticFile.resources
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.pdb
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.dll
@@ -102,3 +92,19 @@ D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenantInfo.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmLogin.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmHome.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmContractInfo.resources
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe.config
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.dll.config
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.dll.config
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmContractInfo.resources
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoomInfo.resources
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenantInfo.resources
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmFunction.resources
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmHome.resources
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmLogin.resources
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Managers.CustomMessageBox.resources
+B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoom.resources
