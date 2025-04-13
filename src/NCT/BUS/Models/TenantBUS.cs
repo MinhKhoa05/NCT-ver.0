@@ -1,8 +1,7 @@
-﻿using System.Collections.Generic;
-using DAL.Repositories;
+﻿using DAL.Repositories;
 using DTO;
 
-namespace BUS.Services
+namespace BUS.Models
 {
     public class TenantBUS : BaseBUS<Tenant>
     {

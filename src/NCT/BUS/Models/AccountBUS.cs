@@ -3,7 +3,7 @@ using DTO;
 using DAL.Repositories;
 using System;
 
-namespace BUS.Services
+namespace BUS.Models
 {
     public class AccountBUS
     {

@@ -2,7 +2,7 @@
 using DAL.Repositories;
 using DTO;
 
-namespace BUS.Services
+namespace BUS.Models
 {
     public class ContractBUS : BaseBUS<Contract>
     {

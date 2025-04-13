@@ -1,7 +1,7 @@
 ﻿using DAL.Repositories;
 using DTO;
 
-namespace BUS.Services
+namespace BUS.Models
 {
     public class ServiceBUS : BaseBUS<Service>
     {

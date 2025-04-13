@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DAL.Repositories;
 using DTO;
 
-namespace BUS.Services
+namespace BUS.Models
 {
     public class RoomBUS : BaseBUS<Room>
     {

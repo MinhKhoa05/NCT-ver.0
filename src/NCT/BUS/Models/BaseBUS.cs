@@ -3,7 +3,7 @@ using DAL.Repositories;
 using System;
 using System.Collections.Generic;
 
-namespace BUS.Services
+namespace BUS.Models
 {
     public abstract class BaseBUS<T> where T : class, new()
     {
@@ -35,23 +35,25 @@ namespace BUS.Services
 
         public virtual void Insert(T entity)
         {
-            if (!ValidatorHelper.TryValidateFirstError(entity, out var error))
-                throw new Exception(error);
-
-            _baseDAL.Insert(entity);
+            if (ValidDate(entity)) _baseDAL.Insert(entity);
         }
 
         public void Update(T entity)
         {
-            if (!ValidatorHelper.TryValidateFirstError(entity, out var error))
-                throw new Exception(error);
-
-            _baseDAL.Update(entity);
+            if (ValidDate(entity)) _baseDAL.Update(entity);
         }
 
         public void DeleteById(string id) => _baseDAL.DeleteByID(id);
         public void DeleteById(int id) => DeleteById(id.ToString());
 
         public virtual List<T> Search(string keyword) => _baseDAL.Search(keyword);
+
+        private bool ValidDate(T entity)
+        {
+            if (!ValidatorHelper.TryValidateFirstError(entity, out var error))
+                throw new Exception(error);
+
+            return true;
+        }
     }
 }
