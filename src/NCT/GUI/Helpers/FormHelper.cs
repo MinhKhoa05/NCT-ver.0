@@ -1,10 +1,23 @@
-﻿using System;
+﻿using System.Windows.Forms;
+using System;
 using System.Text;
 
 namespace GUI.Helpers
 {
-    public static class StringHelper
-    {
+    public static class FormHelper
+    {  
+        public static void OnlyAllowDigits(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+                e.Handled = true;
+        }
+
+        public static int TryParseInt(string text)
+        {
+            int.TryParse(text.Replace(",", ""), out int result);
+            return result;
+        }
+
         public static string FormatProperName(string input)
         {
             if (string.IsNullOrWhiteSpace(input))

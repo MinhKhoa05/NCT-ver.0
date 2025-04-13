@@ -157,7 +157,6 @@
             this.txtGiaThue.SelectedText = "";
             this.txtGiaThue.Size = new System.Drawing.Size(292, 36);
             this.txtGiaThue.TabIndex = 3;
-            this.txtGiaThue.TextChanged += new System.EventHandler(this.txtGiaThue_TextChanged);
             // 
             // txtArea
             // 

@@ -19,47 +19,58 @@ namespace GUI.ChildForms
         {
             InitializeComponent();
             _isAdd = isAdd;
+            if (!_isAdd) contract = contractBUS.GetByID(contractId);
 
-            if (!_isAdd)
+            txtRentPrice.KeyPress += FormHelper.OnlyAllowDigits;
+            txtRentPrice.TextChanged += txtRentPrice_TextChanged;
+            txtTienCoc.KeyPress += FormHelper.OnlyAllowDigits;
+            txtTienCoc.TextChanged += txtTienCoc_TextChanged;
+        }
+
+        private void txtTienCoc_TextChanged(object sender, EventArgs e)
+        {
+            if (int.TryParse(txtTienCoc.Text.Replace(",", ""), out int value))
             {
-                contract = contractBUS.GetByID(contractId);
+                txtTienCoc.TextChanged -= txtTienCoc_TextChanged;
+                txtTienCoc.Text = value.ToString("N0");
+                txtTienCoc.SelectionStart = txtTienCoc.Text.Length;
+                txtTienCoc.TextChanged += txtTienCoc_TextChanged;
             }
+        }
 
-            txtRentPrice.KeyPress += OnlyAllowDigits;
-            txtTienCoc.KeyPress += OnlyAllowDigits;
+        private void txtRentPrice_TextChanged(object sender, EventArgs e)
+        {
+            if (int.TryParse(txtRentPrice.Text.Replace(",", ""), out int value))
+            {
+                txtRentPrice.TextChanged -= txtRentPrice_TextChanged;
+                txtRentPrice.Text = value.ToString("N0");
+                txtRentPrice.SelectionStart = txtRentPrice.Text.Length;
+                txtRentPrice.TextChanged += txtRentPrice_TextChanged;
+            }
         }
 
         private void frmContractInfo_Load(object sender, EventArgs e)
         {
-            LoadCbTenant();
-            LoadCbRoom();
+            InitTenantComboBox();
+            InitRoomComboBox();
 
             if (_isAdd)
             {
                 txtContractID.Text = contractBUS.GenerateID();
                 dtpStartDate.Value = DateTime.Today;
-                dtpEndDate.Value = DateTime.Today.AddMonths(6); // Mặc định 6 tháng
+                dtpEndDate.Value = DateTime.Today.AddMonths(3); // hợp đồng 3 tháng
             }
             else
             {
-                LoadData();
+                FillContractData();
             }
         }
 
-        private void LoadCbTenant()
+        private void InitTenantComboBox()
         {
             var tenants = tenantBUS.GetAll();
-            var contracts = contractBUS.GetAll(); // Lấy tất cả hợp đồng
-
-            // Lấy danh sách TenantID đã có hợp đồng
-            var usedTenantIDs = new HashSet<string>();
-            foreach (var c in contracts)
-            {
-                usedTenantIDs.Add(c.TenantID);
-            }
-
-            // Nếu đang cập nhật thì giữ lại Tenant hiện tại để không bị lọc mất
-            string currentTenantID = contract?.TenantID;
+            var usedTenantIDs = new HashSet<string>(contractBUS.GetAll().ConvertAll(c => c.TenantID));
+            var currentTenantID = contract?.TenantID;
 
             var availableTenants = tenants.FindAll(t =>
                 string.IsNullOrEmpty(t.TenantID) ||
@@ -67,74 +78,61 @@ namespace GUI.ChildForms
                 t.TenantID == currentTenantID
             );
 
-            // Thêm dòng mặc định
-            availableTenants.Insert(0, new Tenant
-            {
-                TenantID = string.Empty,
-                FullName = "-- Chọn khách thuê --",
-            });
+            availableTenants.Insert(0, new Tenant { TenantID = "", FullName = "-- Chọn khách thuê --" });
 
             cbTenant.DataSource = availableTenants;
             cbTenant.DisplayMember = "FullName";
             cbTenant.ValueMember = "TenantID";
         }
 
-        private void LoadCbRoom()
+        private void InitRoomComboBox()
         {
             var rooms = roomBUS.GetAll();
-
-            // Thêm dòng mặc định
-            rooms.Insert(0, new Room
-            {
-                RoomID = "-- Chọn phòng --",
-            });
+            rooms.Insert(0, new Room { RoomID = "-- Chọn phòng --" });
 
             cbRoom.DataSource = rooms;
             cbRoom.DisplayMember = "RoomID";
             cbRoom.ValueMember = "RoomID";
         }
 
-        private void LoadData()
+        private void FillContractData()
         {
-            if (contract != null)
-            {
-                txtContractID.Text = contract.ContractID;
+            if (contract == null) return;
 
-                cbTenant.SelectedValue = contract.TenantID;
-                cbRoom.SelectedValue = contract.RoomID;
-
-                dtpStartDate.Value = contract.StartDate;
-                dtpEndDate.Value = contract.EndDate;
-                txtRentPrice.Text = contract.RentPrice.ToString("N0");
-                txtTienCoc.Text = contract.DepositAmount.ToString("N0");
-                txtNote.Text = contract.Note;
-            }
+            txtContractID.Text = contract.ContractID;
+            cbTenant.SelectedValue = contract.TenantID;
+            cbRoom.SelectedValue = contract.RoomID;
+            dtpStartDate.Value = contract.StartDate;
+            dtpEndDate.Value = contract.EndDate;
+            txtRentPrice.Text = contract.RentPrice.ToString("N0");
+            txtTienCoc.Text = contract.DepositAmount.ToString("N0");
+            txtNote.Text = contract.Note;
         }
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
             try
             {
-                var contract = new Contract
+                var newContract = new Contract
                 {
                     ContractID = txtContractID.Text.Trim(),
                     TenantID = cbTenant.SelectedValue?.ToString(),
                     RoomID = cbRoom.SelectedValue?.ToString(),
                     StartDate = dtpStartDate.Value,
                     EndDate = dtpEndDate.Value,
-                    RentPrice = int.TryParse(txtRentPrice.Text.Replace(",", ""), out var rent) ? rent : 0,
-                    DepositAmount = int.TryParse(txtTienCoc.Text.Replace(",", ""), out var deposit) ? deposit : 0,
+                    RentPrice = FormHelper.TryParseInt(txtRentPrice.Text),
+                    DepositAmount = FormHelper.TryParseInt(txtTienCoc.Text),
                     Note = txtNote.Text.Trim()
                 };
 
                 if (_isAdd)
                 {
-                    contractBUS.Insert(contract);
+                    contractBUS.Insert(newContract);
                     MyMessageBox.ShowInformation("Thêm hợp đồng thành công");
                 }
                 else
                 {
-                    contractBUS.Update(contract);
+                    contractBUS.Update(newContract);
                     MyMessageBox.ShowInformation("Đã cập nhật hợp đồng");
                 }
 
@@ -148,34 +146,18 @@ namespace GUI.ChildForms
 
         private void cbRoom_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Room room = roomBUS.GetByID(cbRoom.SelectedValue?.ToString());
+            var room = roomBUS.GetByID(cbRoom.SelectedValue?.ToString());
             if (room != null)
             {
                 txtRentPrice.Text = room.RentPrice.ToString("N0");
-                txtTienCoc.Text = (room.RentPrice * 2).ToString("N0"); // cọc mặc định 2 tháng
+                txtTienCoc.Text = (room.RentPrice * 2).ToString("N0");
             }
         }
 
         private void dtpStartDate_ValueChanged(object sender, EventArgs e)
         {
             dtpEndDate.MinDate = dtpStartDate.Value;
-        }
-
-        private void txtTienCoc_TextChanged(object sender, EventArgs e)
-        {
-            if (int.TryParse(txtTienCoc.Text.Replace(",", ""), out var value))
-            {
-                txtTienCoc.TextChanged -= txtTienCoc_TextChanged;
-                txtTienCoc.Text = value.ToString("N0");
-                txtTienCoc.SelectionStart = txtTienCoc.Text.Length;
-                txtTienCoc.TextChanged += txtTienCoc_TextChanged;
-            }
-        }
-
-        private void OnlyAllowDigits(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-                e.Handled = true;
+            dtpEndDate.Value = dtpEndDate.MinDate.AddMonths(3); // hợp đồng 3 tháng
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace GUI.Commands
 {
@@ -12,5 +13,6 @@ namespace GUI.Commands
         void Insert();
         void Edit();
         void Delete();
+        Dictionary<string, string> FormatMap { get; }
     }
 }

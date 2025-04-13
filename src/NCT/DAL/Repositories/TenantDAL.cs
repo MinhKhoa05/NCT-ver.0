@@ -24,7 +24,7 @@ namespace DAL.Repositories
                 PhoneNumber = @PhoneNumber,
                 Email = @Email,
                 Address = @Address,
-                NationalID = @NationalID,
+                NationalID = @NationalID
                 WHERE {IDColumn} = @{IDColumn}";
 
             Connector.ExecuteNonQuery(sql, tenant);

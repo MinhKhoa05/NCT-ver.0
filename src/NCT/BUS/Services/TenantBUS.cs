@@ -1,4 +1,5 @@
-﻿using DAL.Repositories;
+﻿using System.Collections.Generic;
+using DAL.Repositories;
 using DTO;
 
 namespace BUS.Services

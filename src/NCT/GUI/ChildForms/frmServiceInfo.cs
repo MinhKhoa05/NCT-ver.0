@@ -20,7 +20,7 @@ namespace GUI.ChildForms
             if (!_isAdd)
                 service = serviceBUS.GetByID(serviceId);
 
-            txtUnitPrice.KeyPress += OnlyAllowDigits;
+            txtUnitPrice.KeyPress += FormHelper.OnlyAllowDigits;
         }
 
         private void frmServiceInfo_Load(object sender, EventArgs e)
@@ -85,9 +85,9 @@ namespace GUI.ChildForms
             {
                 var service = new Service(
                     txtServiceID.Text,
-                    StringHelper.FormatProperName(txtServiceName.Text.Trim()),
+                    FormHelper.FormatProperName(txtServiceName.Text),
                     cbServiceType.SelectedIndex == 1,
-                    int.Parse(txtUnitPrice.Text.Replace(",", "")),
+                    FormHelper.TryParseInt(txtUnitPrice.Text),
                     cbUnit.SelectedItem.ToString()
                 );
 
@@ -119,12 +119,6 @@ namespace GUI.ChildForms
                 txtUnitPrice.SelectionStart = txtUnitPrice.Text.Length;
                 txtUnitPrice.TextChanged += txtUnitPrice_TextChanged;
             }
-        }
-
-        private void OnlyAllowDigits(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-                e.Handled = true;
         }
     }
 }

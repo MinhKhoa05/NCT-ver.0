@@ -250,7 +250,6 @@
             this.txtTienCoc.SelectedText = "";
             this.txtTienCoc.Size = new System.Drawing.Size(305, 41);
             this.txtTienCoc.TabIndex = 5;
-            this.txtTienCoc.TextChanged += new System.EventHandler(this.txtTienCoc_TextChanged);
             // 
             // label4
             // 

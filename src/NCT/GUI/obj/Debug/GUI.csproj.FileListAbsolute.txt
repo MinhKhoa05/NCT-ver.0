@@ -87,7 +87,6 @@ D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoomInfo.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Managers.CustomMessageBox.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenantInfo.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmLogin.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmHome.resources
@@ -108,3 +107,5 @@ B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmHome.resources
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmLogin.resources
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Managers.CustomMessageBox.resources
 B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoom.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmServiceInfo.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Helpers.CustomMessageBox.resources

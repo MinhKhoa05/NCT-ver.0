@@ -1,40 +1,60 @@
-﻿using BUS.Services;
-using GUI.Helpers;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
+using BUS.Services;
+using GUI.Helpers;
 
 namespace GUI.Commands
 {
     public abstract class CommandBase<T> : ICommand where T : class, new()
     {
+        #region Fields
+
         protected readonly BaseBUS<T> _bus;
         protected DataGridView _dgv;
 
-        protected CommandBase() => _bus = CreateBUS();
+        #endregion
+
+        #region Constructor
+
+        protected CommandBase()
+        {
+            _bus = CreateBUS();
+        }
+
+        #endregion
+
+        #region Abstract Members
 
         protected abstract BaseBUS<T> CreateBUS();
         protected abstract string IdColumnName { get; }
         protected abstract Form CreateForm(bool isAdd, string id = null);
         protected abstract void SetupHeaders();
-
         public abstract string LabelText { get; }
 
-        public void SetDataGridView(DataGridView dgv) => _dgv = dgv;
-        
+        #endregion
+
+        #region Public Interface
+
+        public void SetDataGridView(DataGridView dgv)
+        {
+            _dgv = dgv;
+        }
+
         public void Load()
         {
             if (_dgv == null) return;
 
-            _dgv.Columns.Clear(); // Xóa toàn bộ cấu trúc cột hiện tại
-            _dgv.AutoGenerateColumns = true; // Cho phép auto tạo lại cột nếu dùng DataSource
+            _dgv.Columns.Clear();
+            _dgv.AutoGenerateColumns = true;
             _dgv.DataSource = _bus.GetAll();
+
             SetupHeaders();
         }
 
         public void Search(string keyword)
         {
             if (_dgv == null) return;
-
             _dgv.DataSource = _bus.Search(keyword);
         }
 
@@ -69,6 +89,15 @@ namespace GUI.Commands
             }
         }
 
+        #endregion
+
+        #region Protected Helpers
+        public virtual Dictionary<string, string> FormatMap => null;
+
+        #endregion
+
+        #region Private Helpers
+
         private void ShowForm(bool isAdd, string id = null)
         {
             if (_dgv == null) return;
@@ -96,5 +125,7 @@ namespace GUI.Commands
 
             return true;
         }
+
+        #endregion
     }
 }

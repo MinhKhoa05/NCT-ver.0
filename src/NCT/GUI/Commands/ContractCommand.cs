@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.Collections.Generic;
+using System.Windows.Forms;
 using BUS.Services;
 using DTO;
 using GUI.ChildForms;
@@ -8,10 +9,16 @@ namespace GUI.Commands
     public class ContractCommand : CommandBase<Contract>
     {
         protected override BaseBUS<Contract> CreateBUS() => new ContractBUS();
-        
+
         public override string LabelText => "Hợp đồng";
 
         protected override string IdColumnName => "ContractID";
+
+        public override Dictionary<string, string> FormatMap => new Dictionary<string, string>
+        {
+            ["RentPrice"] = "{0:N0} VNĐ",
+            ["DepositAmount"] = "{0:N0} VNĐ"
+        };
 
         protected override void SetupHeaders()
         {
@@ -29,31 +36,11 @@ namespace GUI.Commands
             _dgv.Columns["RentPrice"].HeaderText = "Giá thuê";
             _dgv.Columns["DepositAmount"].HeaderText = "Tiền cọc";
             _dgv.Columns["Note"].HeaderText = "Ghi chú";
-
-            _dgv.CellFormatting += dgv_CellFormatting;
         }
 
         protected override Form CreateForm(bool isAdd, string id = null)
         {
             return new frmContractInfo(isAdd, id);
-        }
-
-        private void dgv_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
-        {
-            string columnName = _dgv.Columns[e.ColumnIndex].Name;
-
-            if (e.Value == null) return;
-
-            if (columnName == "RentPrice" && int.TryParse(e.Value.ToString(), out int rentPrice))
-            {
-                e.Value = string.Format("{0:N0} VNĐ", rentPrice);
-                e.FormattingApplied = true;
-            }
-            else if (columnName == "DepositAmount" && int.TryParse(e.Value.ToString(), out int tienCoc))
-            {
-                e.Value = string.Format("{0:N0} VNĐ", tienCoc);
-                e.FormattingApplied = true;
-            }
         }
     }
 }

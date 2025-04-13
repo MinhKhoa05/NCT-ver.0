@@ -59,8 +59,7 @@
             // 
             this.lblTypeList.AutoSize = true;
             this.lblTypeList.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTypeList.Location = new System.Drawing.Point(13, 7);
-            this.lblTypeList.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTypeList.Location = new System.Drawing.Point(10, 6);
             this.lblTypeList.Name = "lblTypeList";
             this.lblTypeList.Size = new System.Drawing.Size(132, 40);
             this.lblTypeList.TabIndex = 0;
@@ -81,20 +80,19 @@
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.Color.Black;
             this.txtSearch.HoverState.BorderColor = System.Drawing.Color.Black;
-            this.txtSearch.Location = new System.Drawing.Point(172, 15);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.txtSearch.Location = new System.Drawing.Point(129, 12);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PlaceholderText = "Tìm kiếm";
             this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(765, 44);
+            this.txtSearch.Size = new System.Drawing.Size(574, 36);
             this.txtSearch.TabIndex = 4;
             // 
             // lblPhi
             // 
             this.lblPhi.AutoSize = true;
             this.lblPhi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhi.Location = new System.Drawing.Point(299, 25);
-            this.lblPhi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPhi.Location = new System.Drawing.Point(224, 20);
             this.lblPhi.Name = "lblPhi";
             this.lblPhi.Size = new System.Drawing.Size(105, 21);
             this.lblPhi.TabIndex = 3;
@@ -113,18 +111,16 @@
             this.cbPhi.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbPhi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbPhi.ItemHeight = 30;
-            this.cbPhi.Location = new System.Drawing.Point(304, 54);
-            this.cbPhi.Margin = new System.Windows.Forms.Padding(4);
+            this.cbPhi.Location = new System.Drawing.Point(228, 44);
             this.cbPhi.Name = "cbPhi";
-            this.cbPhi.Size = new System.Drawing.Size(239, 36);
+            this.cbPhi.Size = new System.Drawing.Size(180, 36);
             this.cbPhi.TabIndex = 2;
             // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(35, 25);
-            this.lblStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblStatus.Location = new System.Drawing.Point(26, 20);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(128, 21);
             this.lblStatus.TabIndex = 1;
@@ -143,20 +139,18 @@
             this.cbStatus.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbStatus.ItemHeight = 30;
-            this.cbStatus.Location = new System.Drawing.Point(40, 54);
-            this.cbStatus.Margin = new System.Windows.Forms.Padding(4);
+            this.cbStatus.Location = new System.Drawing.Point(30, 44);
             this.cbStatus.Name = "cbStatus";
-            this.cbStatus.Size = new System.Drawing.Size(239, 36);
+            this.cbStatus.Size = new System.Drawing.Size(180, 36);
             this.cbStatus.TabIndex = 0;
             // 
             // guna2Panel3
             // 
             this.guna2Panel3.AutoScroll = true;
             this.guna2Panel3.Controls.Add(this.dgv);
-            this.guna2Panel3.Location = new System.Drawing.Point(16, 70);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Panel3.Location = new System.Drawing.Point(12, 57);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1428, 615);
+            this.guna2Panel3.Size = new System.Drawing.Size(1071, 500);
             this.guna2Panel3.TabIndex = 0;
             // 
             // dgv
@@ -191,7 +185,7 @@
             this.dgv.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(190)))));
             this.dgv.Location = new System.Drawing.Point(0, 0);
-            this.dgv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgv.MultiSelect = false;
             this.dgv.Name = "dgv";
             this.dgv.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
@@ -209,7 +203,7 @@
             this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgv.RowTemplate.Height = 40;
             this.dgv.RowTemplate.ReadOnly = true;
-            this.dgv.Size = new System.Drawing.Size(1428, 615);
+            this.dgv.Size = new System.Drawing.Size(1071, 500);
             this.dgv.TabIndex = 3;
             this.dgv.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgv.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -232,6 +226,8 @@
             this.dgv.ThemeStyle.RowsStyle.Height = 40;
             this.dgv.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgv.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgv.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellMouseEnter);
+            this.dgv.CellMouseLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellMouseLeave);
             // 
             // guna2Panel2
             // 
@@ -245,10 +241,9 @@
             this.guna2Panel2.Controls.Add(this.btnInsert);
             this.guna2Panel2.Controls.Add(this.guna2Panel3);
             this.guna2Panel2.CustomBorderColor = System.Drawing.Color.Black;
-            this.guna2Panel2.Location = new System.Drawing.Point(20, 208);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Panel2.Location = new System.Drawing.Point(15, 169);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1463, 703);
+            this.guna2Panel2.Size = new System.Drawing.Size(1097, 571);
             this.guna2Panel2.TabIndex = 2;
             // 
             // btnSearch
@@ -260,11 +255,10 @@
             this.btnSearch.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSearch.IconSize = 20;
             this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearch.Location = new System.Drawing.Point(16, 15);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSearch.Location = new System.Drawing.Point(12, 12);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
-            this.btnSearch.Size = new System.Drawing.Size(139, 44);
+            this.btnSearch.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.btnSearch.Size = new System.Drawing.Size(104, 36);
             this.btnSearch.TabIndex = 7;
             this.btnSearch.Text = "Tìm kiếm";
             this.btnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -280,11 +274,10 @@
             this.btnDelete.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDelete.IconSize = 20;
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(1291, 15);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDelete.Location = new System.Drawing.Point(968, 12);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnDelete.Size = new System.Drawing.Size(153, 44);
+            this.btnDelete.Size = new System.Drawing.Size(115, 36);
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -300,11 +293,10 @@
             this.btnEdit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnEdit.IconSize = 20;
             this.btnEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEdit.Location = new System.Drawing.Point(1129, 15);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEdit.Location = new System.Drawing.Point(847, 12);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnEdit.Size = new System.Drawing.Size(153, 44);
+            this.btnEdit.Size = new System.Drawing.Size(115, 36);
             this.btnEdit.TabIndex = 2;
             this.btnEdit.Text = "Sửa";
             this.btnEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -320,11 +312,10 @@
             this.btnInsert.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnInsert.IconSize = 20;
             this.btnInsert.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInsert.Location = new System.Drawing.Point(960, 15);
-            this.btnInsert.Margin = new System.Windows.Forms.Padding(4);
+            this.btnInsert.Location = new System.Drawing.Point(720, 12);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnInsert.Size = new System.Drawing.Size(153, 44);
+            this.btnInsert.Size = new System.Drawing.Size(115, 36);
             this.btnInsert.TabIndex = 1;
             this.btnInsert.Text = "Thêm";
             this.btnInsert.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -336,10 +327,9 @@
             this.panel.Controls.Add(this.guna2Panel2);
             this.panel.Controls.Add(this.guna2Panel1);
             this.panel.Controls.Add(this.lblTypeList);
-            this.panel.Location = new System.Drawing.Point(16, 15);
-            this.panel.Margin = new System.Windows.Forms.Padding(4);
+            this.panel.Location = new System.Drawing.Point(12, 12);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(1501, 930);
+            this.panel.Size = new System.Drawing.Size(1126, 756);
             this.panel.TabIndex = 1;
             // 
             // guna2Panel1
@@ -351,21 +341,19 @@
             this.guna2Panel1.Controls.Add(this.cbPhi);
             this.guna2Panel1.Controls.Add(this.lblStatus);
             this.guna2Panel1.Controls.Add(this.cbStatus);
-            this.guna2Panel1.Location = new System.Drawing.Point(20, 62);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Panel1.Location = new System.Drawing.Point(15, 50);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1463, 123);
+            this.guna2Panel1.Size = new System.Drawing.Size(1097, 100);
             this.guna2Panel1.TabIndex = 1;
             // 
             // frmFunction
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(241)))), ((int)(((byte)(225)))));
             this.Controls.Add(this.panel);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmFunction";
-            this.Size = new System.Drawing.Size(1533, 960);
+            this.Size = new System.Drawing.Size(1150, 780);
             this.guna2Panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.guna2Panel2.ResumeLayout(false);

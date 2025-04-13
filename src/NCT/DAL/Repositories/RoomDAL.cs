@@ -27,7 +27,7 @@ namespace DAL.Repositories
             string sql = $@"UPDATE {TableName} SET
                 RoomType = @RoomType,
                 RentPrice = @RentPrice,
-                Area = @Area,
+                Area = @Area
                 WHERE {IDColumn} = @{IDColumn}";
             Connector.ExecuteNonQuery(sql, room);
         }

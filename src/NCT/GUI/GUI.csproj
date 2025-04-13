@@ -123,8 +123,8 @@
     <Compile Include="Helpers\CustomMessageBox.Designer.cs">
       <DependentUpon>CustomMessageBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\FormHelper.cs" />
     <Compile Include="Helpers\MyMessageBox.cs" />
-    <Compile Include="Helpers\StringHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ChildForms\frmRoom.cs">

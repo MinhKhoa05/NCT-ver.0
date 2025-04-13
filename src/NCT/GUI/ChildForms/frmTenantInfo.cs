@@ -9,53 +9,44 @@ namespace GUI.ChildForms
     public partial class frmTenantInfo : Form
     {
         private readonly bool _isAdd;
-        private readonly Tenant tenant;
-        private readonly TenantBUS tenantBUS = new TenantBUS();
-        private readonly RoomBUS roomBUS = new RoomBUS();
+        private readonly Tenant _tenant;
+        private readonly TenantBUS _tenantBUS = new TenantBUS();
 
-        public frmTenantInfo(bool isAdd, string id = null)
+        public frmTenantInfo(bool isAdd, string tenantId = null)
         {
             InitializeComponent();
             _isAdd = isAdd;
 
             if (!_isAdd)
-                tenant = tenantBUS.GetByID(id);
+                _tenant = _tenantBUS.GetByID(tenantId);
         }
 
         private void frmTenantInfo_Load(object sender, EventArgs e)
         {
-            txtCCCD.KeyPress += OnlyAllowDigits;
-            txtPhone.KeyPress += OnlyAllowDigits;
+            txtCCCD.KeyPress += FormHelper.OnlyAllowDigits;
+            txtPhone.KeyPress += FormHelper.OnlyAllowDigits;
 
-            if (_isAdd)
-            {
-                txtRoom.Visible = false;
-                lblRoom.Visible = false;
-            }
+            txtRoom.Visible = !_isAdd;
+            lblRoom.Visible = !_isAdd;
 
             LoadData();
         }
 
-        private void OnlyAllowDigits(object sender, KeyPressEventArgs e)
-        {
-            e.Handled = !char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar);
-        }
-
         private void LoadData()
         {
-            if (tenant != null)
+            if (_tenant != null)
             {
-                txtTenantID.Text = tenant.TenantID;
-                txtFullName.Text = tenant.FullName;
-                txtPhone.Text = tenant.PhoneNumber;
-                txtEmail.Text = tenant.Email;
-                txtAddress.Text = tenant.Address;
-                txtCCCD.Text = tenant.NationalID;
-                txtRoom.Text = tenant.RoomID == null ? "-- None --" : tenant.RoomID;
+                txtTenantID.Text = _tenant.TenantID;
+                txtFullName.Text = _tenant.FullName;
+                txtPhone.Text = _tenant.PhoneNumber;
+                txtEmail.Text = _tenant.Email;
+                txtAddress.Text = _tenant.Address;
+                txtCCCD.Text = _tenant.NationalID;
+                txtRoom.Text = string.IsNullOrEmpty(_tenant.RoomID) ? "-- None --" : _tenant.RoomID;
             }
             else
             {
-                txtTenantID.Text = tenantBUS.GenerateID();
+                txtTenantID.Text = _tenantBUS.GenerateID();
             }
         }
 
@@ -63,30 +54,27 @@ namespace GUI.ChildForms
         {
             try
             {
-                string fullname = StringHelper.FormatProperName(txtFullName.Text);
-                string address = StringHelper.FormatProperName(txtAddress.Text);
-
                 var tenant = new Tenant(
-                    txtTenantID.Text,
-                    fullname,
-                    txtPhone.Text,
-                    txtEmail.Text,
-                    address,
-                    txtCCCD.Text
+                    txtTenantID.Text.Trim(),
+                    FormHelper.FormatProperName(txtFullName.Text),
+                    txtPhone.Text.Trim(),
+                    txtEmail.Text.Trim(),
+                    FormHelper.FormatProperName(txtAddress.Text),
+                    txtCCCD.Text.Trim()
                 );
 
                 if (_isAdd)
                 {
-                    tenantBUS.Insert(tenant);
+                    _tenantBUS.Insert(tenant);
                     MyMessageBox.ShowInformation("Thêm khách thuê thành công");
                 }
                 else
                 {
-                    tenantBUS.Update(tenant);
+                    _tenantBUS.Update(tenant);
                     MyMessageBox.ShowInformation("Đã cập nhật thông tin khách thuê");
                 }
 
-                this.Close();
+                Close();
             }
             catch (Exception ex)
             {

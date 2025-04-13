@@ -1,16 +1,22 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 using GUI.Commands;
-using System;
 using GUI.Helpers;
 
 namespace GUI
 {
     public partial class frmFunction : UserControl
     {
+        #region Fields
+
         private ICommand currentCommand;
         private string currentType;
         private static frmFunction _instance;
+
+        #endregion
+
+        #region Singleton
 
         private frmFunction()
         {
@@ -28,10 +34,13 @@ namespace GUI
             }
         }
 
+        #endregion
+
+        #region Public Methods
+
         public void UpdateType(string type)
         {
             if (type == currentType) return;
-
             currentType = type;
 
             try
@@ -50,20 +59,18 @@ namespace GUI
             lblTypeList.Text = $"Quản lý {currentCommand.LabelText}";
             txtSearch.Text = string.Empty;
 
-            dgv.DataBindingComplete -= Dgv_DataBindingComplete;
-            dgv.DataBindingComplete += Dgv_DataBindingComplete;
+            dgv.DataBindingComplete -= dgv_DataBindingComplete;
+            dgv.DataBindingComplete += dgv_DataBindingComplete;
+
+            dgv.CellFormatting -= dgv_CellFormatting;
+            dgv.CellFormatting += dgv_CellFormatting;
 
             currentCommand.Load();
         }
 
-        private void ConfigureUI(string type)
-        {
-            bool isRoom = false;
-            lblPhi.Visible = isRoom;
-            lblStatus.Visible = isRoom;
-            cbPhi.Visible = isRoom;
-            cbStatus.Visible = isRoom;
-        }
+        #endregion
+
+        #region UI Initialization
 
         private void InitializeEvents()
         {
@@ -72,12 +79,45 @@ namespace GUI
             btnInsert.Click += (s, e) => currentCommand?.Insert();
             btnEdit.Click += (s, e) => currentCommand?.Edit();
             btnDelete.Click += (s, e) => currentCommand?.Delete();
-
-            dgv.CellMouseEnter += Dgv_CellMouseEnter;
-            dgv.CellMouseLeave += Dgv_CellMouseLeave;
         }
 
-        private void Dgv_CellMouseEnter(object sender, DataGridViewCellEventArgs e)
+        private void ConfigureUI(string type)
+        {
+            bool isRoom = false; // Update logic if needed
+            lblPhi.Visible = isRoom;
+            lblStatus.Visible = isRoom;
+            cbPhi.Visible = isRoom;
+            cbStatus.Visible = isRoom;
+        }
+
+        #endregion
+
+        #region DataGridView Events
+
+        private void dgv_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            if (e.Value == null || currentCommand == null) return;
+
+            string columnName = dgv.Columns[e.ColumnIndex].Name;
+            var formatMap = currentCommand.FormatMap;
+
+            if (formatMap == null) return;
+
+            if (formatMap.TryGetValue(columnName, out string format)
+                && int.TryParse(e.Value.ToString(), out int value))
+            {
+                e.Value = string.Format(format, value);
+                e.FormattingApplied = true;
+            }
+        }
+
+        private void dgv_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            dgv.ClearSelection();
+            dgv.CurrentCell = null;
+        }
+
+        private void dgv_CellMouseEnter(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex < 0 || e.RowIndex >= dgv.RowCount) return;
 
@@ -86,7 +126,7 @@ namespace GUI
             row.DefaultCellStyle.ForeColor = Color.FromArgb(20, 20, 20);
         }
 
-        private void Dgv_CellMouseLeave(object sender, DataGridViewCellEventArgs e)
+        private void dgv_CellMouseLeave(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex < 0 || e.RowIndex >= dgv.RowCount) return;
 
@@ -95,10 +135,6 @@ namespace GUI
             row.DefaultCellStyle.ForeColor = Color.FromArgb(60, 60, 60);
         }
 
-        private void Dgv_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
-        {
-            dgv.ClearSelection();
-            dgv.CurrentCell = null;
-        }
+        #endregion
     }
 }
