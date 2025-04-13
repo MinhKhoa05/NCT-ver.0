@@ -1,6 +1,8 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
 using GUI.Commands;
+using System;
+using GUI.Managers;
 
 namespace GUI
 {
@@ -31,12 +33,21 @@ namespace GUI
             if (type == currentType) return;
 
             currentType = type;
-            currentCommand = CommandFactory.CreateCommand(type);
+
+            try
+            {
+                currentCommand = CommandFactory.CreateCommand(type);
+            }
+            catch (Exception ex)
+            {
+                MyMessageBox.ShowError(ex.Message);
+                return;
+            }
 
             ConfigureUI(type);
 
             currentCommand.SetDataGridView(dgv);
-            lblTypeList.Text = $"Danh sách {currentCommand.LabelText}";
+            lblTypeList.Text = $"Quản lý {currentCommand.LabelText}";
 
             dgv.DataBindingComplete -= Dgv_DataBindingComplete;
             dgv.DataBindingComplete += Dgv_DataBindingComplete;
@@ -46,11 +57,11 @@ namespace GUI
 
         private void ConfigureUI(string type)
         {
-            bool isTenant = type == "Tenant";
-            lblPhi.Visible = !isTenant;
-            lblStatus.Visible = !isTenant;
-            cbPhi.Visible = !isTenant;
-            cbStatus.Visible = !isTenant;
+            bool isRoom = false;
+            lblPhi.Visible = isRoom;
+            lblStatus.Visible = isRoom;
+            cbPhi.Visible = isRoom;
+            cbStatus.Visible = isRoom;
         }
 
         private void InitializeEvents()

@@ -3,52 +3,36 @@
   "WorkspaceRootPath": "D:\\NCT-ver.0\\src\\NCT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmcontractinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmcontractinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmroominfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmroominfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmcontractinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmcontractinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmroominfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmroominfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\commands\\roomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\roomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\commands\\tenantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\tenantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\frmfunction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\frmfunction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmtenantinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmtenantinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\childforms\\frmtenantinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\childforms\\frmtenantinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|d:\\nct-ver.0\\src\\nct\\dto\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|solutionrelative:dto\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|d:\\nct-ver.0\\src\\nct\\dto\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D21A451F-D744-43A6-96C6-7FDFA736B49D}|DTO\\DTO.csproj|solutionrelative:dto\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\commands\\contractcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\contractcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|d:\\nct-ver.0\\src\\nct\\gui\\commands\\tenantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875BDEE-C297-47E0-B4EA-C75C613FCF9B}|GUI\\GUI.csproj|solutionrelative:gui\\commands\\tenantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,66 +50,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
-              "RelativeDocumentMoniker": "GUI\\frmMain.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
-              "RelativeToolTip": "GUI\\frmMain.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowBkAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "frmTenantInfo.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmTenantInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmTenantInfo.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmTenantInfo.cs",
+              "RelativeToolTip": "GUI\\ChildForms\\frmTenantInfo.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:44:07.503Z",
+              "WhenOpened": "2025-04-13T10:49:56.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "frmRoomInfo.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.cs",
-              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmRoomInfo.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.cs",
-              "RelativeToolTip": "GUI\\ChildForms\\frmRoomInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "frmTenantInfo.cs [Design]",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmTenantInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmTenantInfo.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmTenantInfo.cs [Design]",
+              "RelativeToolTip": "GUI\\ChildForms\\frmTenantInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:42:50.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T10:49:53.986Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "frmRoomInfo.cs [Design]",
               "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.cs",
               "RelativeDocumentMoniker": "GUI\\ChildForms\\frmRoomInfo.cs",
               "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmRoomInfo.cs [Design]",
               "RelativeToolTip": "GUI\\ChildForms\\frmRoomInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:37:14.814Z",
+              "WhenOpened": "2025-04-13T10:49:48.152Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CommandBase.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\CommandBase.cs",
-              "RelativeDocumentMoniker": "GUI\\Commands\\CommandBase.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\CommandBase.cs",
-              "RelativeToolTip": "GUI\\Commands\\CommandBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Contract.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Contract.cs",
+              "RelativeDocumentMoniker": "DTO\\Contract.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Contract.cs",
+              "RelativeToolTip": "DTO\\Contract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:31:45.548Z",
+              "WhenOpened": "2025-04-13T10:47:06.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Tenant.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Tenant.cs",
-              "RelativeDocumentMoniker": "DTO\\Tenant.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\DTO\\Tenant.cs",
-              "RelativeToolTip": "DTO\\Tenant.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmContractInfo.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmContractInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmContractInfo.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmContractInfo.cs",
+              "RelativeToolTip": "GUI\\ChildForms\\frmContractInfo.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwKcAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:29:55.847Z",
+              "WhenOpened": "2025-04-13T10:45:34.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmContractInfo.cs [Design]",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmContractInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmContractInfo.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmContractInfo.cs [Design]",
+              "RelativeToolTip": "GUI\\ChildForms\\frmContractInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:45:32.715Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContractCommand.cs",
+              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\ContractCommand.cs",
+              "RelativeDocumentMoniker": "GUI\\Commands\\ContractCommand.cs",
+              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\ContractCommand.cs",
+              "RelativeToolTip": "GUI\\Commands\\ContractCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:44:57.815Z",
               "EditorCaption": ""
             },
             {
@@ -136,84 +144,9 @@
               "RelativeDocumentMoniker": "GUI\\Commands\\TenantCommand.cs",
               "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\TenantCommand.cs",
               "RelativeToolTip": "GUI\\Commands\\TenantCommand.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:26:15.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmMain.cs [Design]",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs",
-              "RelativeDocumentMoniker": "GUI\\frmMain.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmMain.cs [Design]",
-              "RelativeToolTip": "GUI\\frmMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:26:07.026Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmFunction.cs [Design]",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
-              "RelativeDocumentMoniker": "GUI\\frmFunction.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs [Design]",
-              "RelativeToolTip": "GUI\\frmFunction.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:24:41.572Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmFunction.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
-              "RelativeDocumentMoniker": "GUI\\frmFunction.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.cs",
-              "RelativeToolTip": "GUI\\frmFunction.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:21:54.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmTenantInfo.cs [Design]",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmTenantInfo.cs",
-              "RelativeDocumentMoniker": "GUI\\ChildForms\\frmTenantInfo.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\ChildForms\\frmTenantInfo.cs [Design]",
-              "RelativeToolTip": "GUI\\ChildForms\\frmTenantInfo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:35:53.677Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoomCommand.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\RoomCommand.cs",
-              "RelativeDocumentMoniker": "GUI\\Commands\\RoomCommand.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\Commands\\RoomCommand.cs",
-              "RelativeToolTip": "GUI\\Commands\\RoomCommand.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:38:09.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmFunction.Designer.cs",
-              "DocumentMoniker": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\frmFunction.Designer.cs",
-              "ToolTip": "D:\\NCT-ver.0\\src\\NCT\\GUI\\frmFunction.Designer.cs",
-              "RelativeToolTip": "GUI\\frmFunction.Designer.cs",
-              "ViewState": "AgIAACQBAAAAAAAAAAAkwDEBAACHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:23:47.556Z",
+              "WhenOpened": "2025-04-13T10:44:50.345Z",
               "EditorCaption": ""
             }
           ]

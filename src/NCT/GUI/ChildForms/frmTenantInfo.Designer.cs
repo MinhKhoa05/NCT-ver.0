@@ -43,7 +43,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtPhone = new Guna.UI2.WinForms.Guna2TextBox();
-            this.cbRoom = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtRoom = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // lblRoom
@@ -267,27 +267,32 @@
             this.txtPhone.Size = new System.Drawing.Size(339, 36);
             this.txtPhone.TabIndex = 1;
             // 
-            // cbRoom
+            // txtRoom
             // 
-            this.cbRoom.BackColor = System.Drawing.Color.Transparent;
-            this.cbRoom.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbRoom.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbRoom.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbRoom.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbRoom.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cbRoom.ForeColor = System.Drawing.Color.Black;
-            this.cbRoom.ItemHeight = 30;
-            this.cbRoom.Location = new System.Drawing.Point(121, 390);
-            this.cbRoom.Name = "cbRoom";
-            this.cbRoom.Size = new System.Drawing.Size(339, 36);
-            this.cbRoom.TabIndex = 5;
+            this.txtRoom.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtRoom.DefaultText = "";
+            this.txtRoom.DisabledState.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.txtRoom.DisabledState.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.txtRoom.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.txtRoom.DisabledState.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtRoom.Enabled = false;
+            this.txtRoom.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtRoom.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRoom.ForeColor = System.Drawing.Color.Black;
+            this.txtRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtRoom.Location = new System.Drawing.Point(121, 393);
+            this.txtRoom.Name = "txtRoom";
+            this.txtRoom.PlaceholderText = "";
+            this.txtRoom.SelectedText = "";
+            this.txtRoom.Size = new System.Drawing.Size(339, 41);
+            this.txtRoom.TabIndex = 38;
             // 
             // frmTenantInfo
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(241)))), ((int)(((byte)(225)))));
             this.ClientSize = new System.Drawing.Size(489, 522);
-            this.Controls.Add(this.cbRoom);
+            this.Controls.Add(this.txtRoom);
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.lblRoom);
             this.Controls.Add(this.btnConfirm);
@@ -303,11 +308,12 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmTenantInfo";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "frmTenantInfo";
+            this.Text = "Thông tin khách thuê";
             this.Load += new System.EventHandler(this.frmTenantInfo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -330,6 +336,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox txtPhone;
-        private Guna.UI2.WinForms.Guna2ComboBox cbRoom;
+        private Guna.UI2.WinForms.Guna2TextBox txtRoom;
     }
 }

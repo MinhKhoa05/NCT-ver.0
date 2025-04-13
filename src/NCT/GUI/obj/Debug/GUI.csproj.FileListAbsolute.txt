@@ -86,15 +86,7 @@ D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.Up2Date
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.exe
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.pdb
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmContract.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmFingerprint.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmInfoMotel.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmPayment.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoom.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmServices.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmElectricWater.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmReminder.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmStatistics.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmFunction.resources
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe.config
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
@@ -108,3 +100,5 @@ D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoomInfo.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Managers.CustomMessageBox.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenantInfo.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmLogin.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmHome.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmContractInfo.resources

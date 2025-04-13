@@ -66,6 +66,7 @@
     <Compile Include="Helpers\Connector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseDAL.cs" />
+    <Compile Include="Repositories\ContractDAL.cs" />
     <Compile Include="Repositories\RoomDAL.cs" />
     <Compile Include="Repositories\TenantDAL.cs" />
   </ItemGroup>

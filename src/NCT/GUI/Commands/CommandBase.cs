@@ -17,15 +17,17 @@ namespace GUI.Commands
         protected abstract Form CreateForm(bool isAdd, string id = null);
         protected abstract void SetupHeaders();
 
-        public virtual string LabelText => "Danh sách";
+        public abstract string LabelText { get; }
 
         public void SetDataGridView(DataGridView dgv) => _dgv = dgv;
-
+        
         public void Load()
         {
             if (_dgv == null) return;
 
-            _dgv.DataSource = _bus.GetAllFromTable();
+            _dgv.Columns.Clear(); // Xóa toàn bộ cấu trúc cột hiện tại
+            _dgv.AutoGenerateColumns = true; // Cho phép auto tạo lại cột nếu dùng DataSource
+            _dgv.DataSource = _bus.GetAll();
             SetupHeaders();
         }
 
@@ -85,12 +87,14 @@ namespace GUI.Commands
 
             if (_dgv?.CurrentRow == null)
             {
-                MyMessageBox.ShowWarning("Vui lòng chọn 1 ô để thực hiện thao tác.");
+                MyMessageBox.ShowWarning("Vui lòng chọn một dòng để thực hiện thao tác.");
                 return false;
             }
 
-            id = _dgv.CurrentRow.Cells[IdColumnName].Value?.ToString();
-            return !string.IsNullOrEmpty(id);
+            var cellValue = _dgv.CurrentRow.Cells[IdColumnName].Value;
+            id = cellValue?.ToString();
+
+            return true;
         }
     }
 }

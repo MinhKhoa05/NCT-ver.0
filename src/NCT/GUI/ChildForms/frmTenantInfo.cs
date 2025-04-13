@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using BUS.Services;
 using DTO;
+using GUI.Helpers;
 using GUI.Managers;
 
 namespace GUI.ChildForms
@@ -27,29 +28,18 @@ namespace GUI.ChildForms
             txtCCCD.KeyPress += OnlyAllowDigits;
             txtPhone.KeyPress += OnlyAllowDigits;
 
-            LoadCbRoom();
+            if (_isAdd)
+            {
+                txtRoom.Visible = false;
+                lblRoom.Visible = false;
+            }
+
             LoadData();
         }
 
         private void OnlyAllowDigits(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar);
-        }
-
-        private void LoadCbRoom()
-        {
-            var rooms = roomBUS.GetAllFromTable();
-
-            // Thêm dòng mặc định
-            rooms.Insert(0, new Room
-            {
-                RoomID = string.Empty,
-                RoomName = "-- Chọn phòng --"
-            });
-
-            cbRoom.DataSource = rooms;
-            cbRoom.DisplayMember = "RoomName";
-            cbRoom.ValueMember = "RoomID";
         }
 
         private void LoadData()
@@ -62,10 +52,7 @@ namespace GUI.ChildForms
                 txtEmail.Text = tenant.Email;
                 txtAddress.Text = tenant.Address;
                 txtCCCD.Text = tenant.NationalID;
-                if (tenant.RoomID != null)
-                {
-                    cbRoom.SelectedValue = tenant.RoomID;
-                }
+                txtRoom.Text = tenant.RoomID == null ? "-- None --" : tenant.RoomID;
             }
             else
             {
@@ -77,20 +64,16 @@ namespace GUI.ChildForms
         {
             try
             {
-                string roomID = null;
-                if (!string.IsNullOrEmpty(cbRoom.SelectedValue?.ToString()))
-                {
-                    roomID = cbRoom.SelectedValue.ToString();
-                }
+                string fullname = StringHelper.FormatProperName(txtFullName.Text);
+                string address = StringHelper.FormatProperName(txtAddress.Text);
 
                 var tenant = new Tenant(
                     txtTenantID.Text,
-                    txtFullName.Text,
+                    fullname,
                     txtPhone.Text,
                     txtEmail.Text,
-                    txtAddress.Text,
-                    txtCCCD.Text,
-                    roomID
+                    address,
+                    txtCCCD.Text
                 );
 
                 if (_isAdd)

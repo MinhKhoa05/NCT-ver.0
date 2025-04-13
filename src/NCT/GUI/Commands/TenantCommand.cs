@@ -15,6 +15,9 @@ namespace GUI.Commands
 
         protected override void SetupHeaders()
         {
+            _dgv.Columns["RoomID"].HeaderText = "Phòng";
+            _dgv.Columns["RoomID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+
             _dgv.Columns["TenantID"].HeaderText = "ID";
             _dgv.Columns["TenantID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
 
@@ -27,9 +30,6 @@ namespace GUI.Commands
 
             _dgv.Columns["NationalID"].HeaderText = "CCCD";
             _dgv.Columns["NationalID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
-
-            _dgv.Columns["RoomID"].HeaderText = "Phòng";
-            _dgv.Columns["RoomID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
         }
 
         protected override Form CreateForm(bool isAdd, string id = null)

@@ -1,57 +1,47 @@
 ﻿using System;
 using System.Windows.Forms;
-using GUI.ChildForms;
 
 namespace GUI
 {
     public partial class frmMain : Form
     {
-        private Form currentForm;
+        private string _currentType = string.Empty;
 
         public frmMain()
         {
             InitializeComponent();
-            ShowContent(null); // Reset on load
         }
 
-        #region Content Management
+        #region Content Display
 
-        private void ShowContent(Form form = null, UserControl control = null)
+        private void ShowContent(UserControl control)
         {
-            CloseCurrentForm();
             panelDesktop.Controls.Clear();
-
-            if (form != null)
-            {
-                currentForm = form;
-                currentForm.TopLevel = false;
-                currentForm.FormBorderStyle = FormBorderStyle.None;
-                currentForm.Dock = DockStyle.Fill;
-                panelDesktop.Controls.Add(currentForm);
-                currentForm.BringToFront();
-                currentForm.Show();
-            }
-            else if (control != null)
-            {
-                control.Dock = DockStyle.Fill;
-                panelDesktop.Controls.Add(control);
-            }
+            control.Dock = DockStyle.Fill;
+            panelDesktop.Controls.Add(control);
+            control.BringToFront();
         }
 
-        private void CloseCurrentForm()
+        private void ShowFunction(string type)
         {
-            if (currentForm != null)
-            {
-                currentForm.Close();
-                currentForm = null;
-            }
+            if (_currentType == type) return;
+
+            _currentType = type;
+            var functionControl = frmFunction.Instance;
+            functionControl.UpdateType(type);
+            ShowContent(functionControl);
         }
 
         #endregion
 
         #region Event Handlers
 
-        private void picLogo_Click(object sender, EventArgs e) => ShowContent(); // Reset
+        private void picLogo_Click(object sender, EventArgs e)
+        {
+            _currentType = string.Empty;
+            ShowContent(new frmHome());
+        }
+
         private void btnLogout_Click(object sender, EventArgs e)
         {
             Hide();
@@ -60,24 +50,16 @@ namespace GUI
             Close();
         }
 
-        private void LoadForm(string type)
-        {
-            var func = frmFunction.Instance;
-            func.UpdateType(type);
-            ShowContent(control: func);
-        }
-
-        private void btnPhong_Click(object sender, EventArgs e) => LoadForm("Room");
-        private void btnKhach_Click(object sender, EventArgs e) => LoadForm("Tenant");
-
-        private void btnHopDong_Click(object sender, EventArgs e) => ShowContent(new frmContract());
-        private void btnVanTay_Click(object sender, EventArgs e) => ShowContent(new frmFingerprint());
-        private void btnDienNuoc_Click(object sender, EventArgs e) => ShowContent(new frmElectricWater());
-        private void btnThanhToan_Click(object sender, EventArgs e) => ShowContent(new frmPayment());
-        private void btnThongke_Click(object sender, EventArgs e) => ShowContent(new frmStatistics());
-        private void btnKhac_Click(object sender, EventArgs e) => ShowContent(new frmServices());
-        private void btnInfoTro_Click(object sender, EventArgs e) => ShowContent(new frmInfoMotel());
-        private void btnNhacNho_Click(object sender, EventArgs e) => ShowContent(new frmReminder());
+        private void btnPhong_Click(object sender, EventArgs e) => ShowFunction("Room");
+        private void btnKhach_Click(object sender, EventArgs e) => ShowFunction("Tenant");
+        private void btnHopDong_Click(object sender, EventArgs e) => ShowFunction("Contract");
+        private void btnVanTay_Click(object sender, EventArgs e) => ShowFunction("VanTay");
+        private void btnDienNuoc_Click(object sender, EventArgs e) => ShowFunction("DienNuoc");
+        private void btnThanhToan_Click(object sender, EventArgs e) => ShowFunction("ThanhToan");
+        private void btnThongke_Click(object sender, EventArgs e) => ShowFunction("ThongKe");
+        private void btnKhac_Click(object sender, EventArgs e) => ShowFunction("DichVu");
+        private void btnInfoTro_Click(object sender, EventArgs e) => ShowFunction("ThongTinTro");
+        private void btnNhacNho_Click(object sender, EventArgs e) => ShowFunction("NhacNho");
 
         #endregion
     }

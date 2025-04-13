@@ -29,14 +29,12 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
             this.txtRoomID = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtRoomName = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtGiaThue = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtArea = new Guna.UI2.WinForms.Guna2TextBox();
             this.cbRoomType = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -61,17 +59,6 @@
             this.label1.Text = "Thông tin Phòng";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(11, 77);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Tên phòng";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -87,7 +74,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(13, 121);
+            this.label4.Location = new System.Drawing.Point(13, 69);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 25);
             this.label4.TabIndex = 7;
@@ -98,7 +85,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(13, 164);
+            this.label5.Location = new System.Drawing.Point(13, 112);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 25);
             this.label5.TabIndex = 8;
@@ -109,7 +96,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(13, 209);
+            this.label6.Location = new System.Drawing.Point(13, 157);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 25);
             this.label6.TabIndex = 9;
@@ -120,7 +107,7 @@
             // 
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(11, 253);
+            this.lblStatus.Location = new System.Drawing.Point(11, 201);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(97, 25);
             this.lblStatus.TabIndex = 10;
@@ -142,32 +129,12 @@
             this.txtRoomID.ForeColor = System.Drawing.Color.Black;
             this.txtRoomID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtRoomID.Location = new System.Drawing.Point(134, 28);
+            this.txtRoomID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRoomID.Name = "txtRoomID";
             this.txtRoomID.PlaceholderText = "";
             this.txtRoomID.SelectedText = "";
             this.txtRoomID.Size = new System.Drawing.Size(292, 36);
             this.txtRoomID.TabIndex = 0;
-            // 
-            // txtRoomName
-            // 
-            this.txtRoomName.BorderColor = System.Drawing.Color.Black;
-            this.txtRoomName.BorderRadius = 8;
-            this.txtRoomName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtRoomName.DefaultText = "";
-            this.txtRoomName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtRoomName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtRoomName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtRoomName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtRoomName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRoomName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRoomName.ForeColor = System.Drawing.Color.Black;
-            this.txtRoomName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRoomName.Location = new System.Drawing.Point(134, 74);
-            this.txtRoomName.Name = "txtRoomName";
-            this.txtRoomName.PlaceholderText = "";
-            this.txtRoomName.SelectedText = "";
-            this.txtRoomName.Size = new System.Drawing.Size(292, 36);
-            this.txtRoomName.TabIndex = 1;
             // 
             // txtGiaThue
             // 
@@ -183,12 +150,14 @@
             this.txtGiaThue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaThue.ForeColor = System.Drawing.Color.Black;
             this.txtGiaThue.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGiaThue.Location = new System.Drawing.Point(134, 162);
+            this.txtGiaThue.Location = new System.Drawing.Point(134, 110);
+            this.txtGiaThue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtGiaThue.Name = "txtGiaThue";
             this.txtGiaThue.PlaceholderText = "";
             this.txtGiaThue.SelectedText = "";
             this.txtGiaThue.Size = new System.Drawing.Size(292, 36);
             this.txtGiaThue.TabIndex = 3;
+            this.txtGiaThue.TextChanged += new System.EventHandler(this.txtGiaThue_TextChanged);
             // 
             // txtArea
             // 
@@ -204,7 +173,8 @@
             this.txtArea.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtArea.ForeColor = System.Drawing.Color.Black;
             this.txtArea.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtArea.Location = new System.Drawing.Point(134, 204);
+            this.txtArea.Location = new System.Drawing.Point(134, 152);
+            this.txtArea.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtArea.Name = "txtArea";
             this.txtArea.PlaceholderText = "";
             this.txtArea.SelectedText = "";
@@ -223,7 +193,7 @@
             this.cbRoomType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbRoomType.ForeColor = System.Drawing.Color.Black;
             this.cbRoomType.ItemHeight = 30;
-            this.cbRoomType.Location = new System.Drawing.Point(134, 121);
+            this.cbRoomType.Location = new System.Drawing.Point(134, 69);
             this.cbRoomType.Name = "cbRoomType";
             this.cbRoomType.Size = new System.Drawing.Size(292, 36);
             this.cbRoomType.TabIndex = 2;
@@ -244,7 +214,8 @@
             this.txtStatus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStatus.ForeColor = System.Drawing.Color.Black;
             this.txtStatus.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtStatus.Location = new System.Drawing.Point(134, 246);
+            this.txtStatus.Location = new System.Drawing.Point(134, 194);
+            this.txtStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtStatus.Name = "txtStatus";
             this.txtStatus.PlaceholderText = "";
             this.txtStatus.ReadOnly = true;
@@ -263,7 +234,7 @@
             this.btnConfirm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(79)))), ((int)(((byte)(60)))));
             this.btnConfirm.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirm.ForeColor = System.Drawing.Color.White;
-            this.btnConfirm.Location = new System.Drawing.Point(134, 361);
+            this.btnConfirm.Location = new System.Drawing.Point(134, 306);
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(180, 45);
             this.btnConfirm.TabIndex = 19;
@@ -286,7 +257,8 @@
             this.txtCreatedAt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCreatedAt.ForeColor = System.Drawing.Color.Black;
             this.txtCreatedAt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCreatedAt.Location = new System.Drawing.Point(134, 293);
+            this.txtCreatedAt.Location = new System.Drawing.Point(134, 241);
+            this.txtCreatedAt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCreatedAt.Name = "txtCreatedAt";
             this.txtCreatedAt.PlaceholderText = "";
             this.txtCreatedAt.ReadOnly = true;
@@ -298,7 +270,7 @@
             // 
             this.lblCreatedAt.AutoSize = true;
             this.lblCreatedAt.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreatedAt.Location = new System.Drawing.Point(11, 300);
+            this.lblCreatedAt.Location = new System.Drawing.Point(11, 248);
             this.lblCreatedAt.Name = "lblCreatedAt";
             this.lblCreatedAt.Size = new System.Drawing.Size(108, 25);
             this.lblCreatedAt.TabIndex = 21;
@@ -322,7 +294,6 @@
             this.guna2Panel2.BorderRadius = 10;
             this.guna2Panel2.BorderThickness = 2;
             this.guna2Panel2.Controls.Add(this.cbRoomType);
-            this.guna2Panel2.Controls.Add(this.label3);
             this.guna2Panel2.Controls.Add(this.txtCreatedAt);
             this.guna2Panel2.Controls.Add(this.label2);
             this.guna2Panel2.Controls.Add(this.lblCreatedAt);
@@ -335,17 +306,16 @@
             this.guna2Panel2.Controls.Add(this.txtArea);
             this.guna2Panel2.Controls.Add(this.txtRoomID);
             this.guna2Panel2.Controls.Add(this.txtGiaThue);
-            this.guna2Panel2.Controls.Add(this.txtRoomName);
             this.guna2Panel2.Location = new System.Drawing.Point(12, 77);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(437, 435);
+            this.guna2Panel2.Size = new System.Drawing.Size(437, 368);
             this.guna2Panel2.TabIndex = 23;
             // 
             // frmRoomInfo
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(241)))), ((int)(((byte)(225)))));
-            this.ClientSize = new System.Drawing.Size(461, 524);
+            this.ClientSize = new System.Drawing.Size(461, 459);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -367,14 +337,12 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblStatus;
         private Guna.UI2.WinForms.Guna2TextBox txtRoomID;
-        private Guna.UI2.WinForms.Guna2TextBox txtRoomName;
         private Guna.UI2.WinForms.Guna2TextBox txtGiaThue;
         private Guna.UI2.WinForms.Guna2TextBox txtArea;
         private Guna.UI2.WinForms.Guna2ComboBox cbRoomType;

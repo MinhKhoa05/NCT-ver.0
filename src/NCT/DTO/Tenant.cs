@@ -13,8 +13,7 @@ namespace DTO
         [StringLength(30, ErrorMessage = "Họ tên tối đa 30 ký tự")]
         public string FullName { get; set; }
 
-        [MinLength(10, ErrorMessage = "Số điện thoại phải có ít nhất 10 ký tự")]
-        [StringLength(20, ErrorMessage = "Số điện thoại tối đa 20 ký tự")]
+        [RegularExpression(@"^0\d{9}$", ErrorMessage = "Số điện thoại phải có 10 chữ số và bắt đầu bằng 0")]
         public string PhoneNumber { get; set; }
 
         [EmailAddress(ErrorMessage = "Email không hợp lệ")]
@@ -25,7 +24,6 @@ namespace DTO
         public string Address { get; set; }
 
         [RegularExpression(@"^\d{12}$", ErrorMessage = "CCCD phải gồm đúng 12 chữ số")]
-        [StringLength(12, ErrorMessage = "CCCD phải gồm đúng 12 ký tự")]
         public string NationalID { get; set; }
 
         public Tenant() { }

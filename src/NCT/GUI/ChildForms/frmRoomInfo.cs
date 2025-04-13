@@ -30,7 +30,7 @@ namespace GUI.ChildForms
 
             LoadCbRoomType();
             ToggleExtraFields(!_isAdd);
-            LoadEdit();
+            LoadData();
         }
 
         private void OnlyAllowDigits(object sender, KeyPressEventArgs e)
@@ -39,14 +39,13 @@ namespace GUI.ChildForms
                 e.Handled = true;
         }
 
-        private void LoadEdit()
+        private void LoadData()
         {
             if (room != null)
             {
                 txtRoomID.Text = room.RoomID;
                 txtRoomID.Enabled = false;
 
-                txtRoomName.Text = room.RoomName;
                 txtArea.Text = room.Area.ToString();
                 cbRoomType.SelectedIndex = room.RoomType ? 1 : 0;
                 txtGiaThue.Text = room.RentPrice.ToString();
@@ -76,17 +75,16 @@ namespace GUI.ChildForms
             try
             {
                 var roomID = txtRoomID.Text.Trim();
-                var roomName = txtRoomName.Text.Trim();
                 var roomType = cbRoomType.SelectedIndex == 1;
 
-                if (!int.TryParse(txtGiaThue.Text.Trim(), out var rentPrice) ||
+                if (!int.TryParse(txtGiaThue.Text.Trim().Replace(",", ""), out var rentPrice) ||
                     !int.TryParse(txtArea.Text.Trim(), out var area))
                 {
-                    MyMessageBox.ShowError("Giá thuê và diện tích không được để trống hoặc sai định dạng.");
+                    MyMessageBox.ShowError("Giá thuê hoặc diện tích không được để trống.");
                     return;
                 }
 
-                var room = new Room(roomID, roomName, rentPrice, area, roomType);
+                var room = new Room(roomID, rentPrice, area, roomType);
 
                 if (_isAdd)
                 {
@@ -104,6 +102,17 @@ namespace GUI.ChildForms
             catch (Exception ex)
             {
                 MyMessageBox.ShowError(ex.Message);
+            }
+        }
+
+        private void txtGiaThue_TextChanged(object sender, EventArgs e)
+        {
+            if (int.TryParse(txtGiaThue.Text.Replace(",", ""), out var value))
+            {
+                txtGiaThue.TextChanged -= txtGiaThue_TextChanged;
+                txtGiaThue.Text = value.ToString("N0");
+                txtGiaThue.SelectionStart = txtGiaThue.Text.Length;
+                txtGiaThue.TextChanged += txtGiaThue_TextChanged;
             }
         }
     }

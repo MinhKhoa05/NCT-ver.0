@@ -12,8 +12,10 @@ namespace GUI.Commands
                     return new RoomCommand();
                 case "Tenant":
                     return new TenantCommand();
+                case "Contract":
+                    return new ContractCommand();
                 default:
-                    throw new InvalidOperationException($"Không hỗ trợ loại command: {type}");
+                    throw new InvalidOperationException($"Chưa hỗ trợ cho Command: {type}");
             }
         }
     }

@@ -1,4 +1,5 @@
 ﻿using DAL.Helpers;
+using DTO;
 using System.Collections.Generic;
 
 namespace DAL.Repositories
@@ -47,6 +48,7 @@ namespace DAL.Repositories
 
         public abstract void Insert(T entity);
         public abstract void Update(T entity);
+        public abstract List<T> Search(string keyword);
 
         #endregion
     }

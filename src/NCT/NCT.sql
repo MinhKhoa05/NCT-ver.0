@@ -15,7 +15,6 @@ USE NCT;
 -- ==========================
 CREATE TABLE Room (
     RoomID      CHAR(5)             PRIMARY KEY,  -- Mã phòng định dạng A0001, B0002
-    RoomName    NVARCHAR(20)        NOT NULL UNIQUE, -- Tên hiển thị (ví dụ: "Phòng A01")
     RoomType    BIT			        NOT NULL DEFAULT 0, -- Phòng trống
     RentPrice   INT                 NOT NULL,     -- Giá thuê (VNĐ)
     Area        INT                 NOT NULL,     -- Diện tích (m²)
@@ -71,7 +70,7 @@ CREATE TABLE Pet (
 -- 5. Rental Contract Table
 -- ==========================
 CREATE TABLE RentalContract (
-    ContractID          INT IDENTITY(1, 1)  PRIMARY KEY,
+    ContractID          CHAR(11)            PRIMARY KEY,
     TenantID            VARCHAR(6)          NOT NULL,
     RoomID              CHAR(5)		        NOT NULL,
     StartDate           DATE                NOT NULL,
@@ -242,3 +241,53 @@ CREATE TABLE PaymentHistory (
     CONSTRAINT FK_PaymentHistory_Invoice FOREIGN KEY (InvoiceID) REFERENCES Invoice(InvoiceID),
     CONSTRAINT FK_PaymentHistory_Tenant  FOREIGN KEY (TenantID)  REFERENCES Tenant(TenantID)
 );
+
+
+-- TRIGGER: Cập nhật trạng thái phòng và thông tin khách thuê khi thêm/cập nhật hợp đồng
+GO
+CREATE TRIGGER trg_ContractRoom
+ON RentalContract
+FOR INSERT, UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @RoomID CHAR(5), @TenantID VARCHAR(6);
+    SELECT @RoomID = RoomID, @TenantID = TenantID FROM inserted;
+
+    -- Cập nhật trạng thái phòng (1 = Đã thuê)
+    UPDATE Room
+    SET Status = 1
+    WHERE RoomID = @RoomID;
+
+    -- Gán phòng cho khách thuê
+    UPDATE Tenant
+    SET RoomID = @RoomID
+    WHERE TenantID = @TenantID;
+
+    -- Đặt lại trạng thái các phòng không còn được thuê (0 = Trống)
+    UPDATE Room
+    SET Status = 0
+    WHERE RoomID NOT IN (SELECT RoomID FROM Tenant WHERE RoomID IS NOT NULL);
+END;
+GO
+
+GO
+CREATE TRIGGER trg_DeleteContract
+ON RentalContract
+FOR DELETE
+AS
+BEGIN
+    DECLARE @RoomID CHAR(5), @TenantID VARCHAR(6);
+    SELECT @RoomID = RoomID, @TenantID = TenantID FROM deleted;
+
+    -- Gán phòng cho khách thuê
+    UPDATE Tenant
+    SET RoomID = NULL
+    WHERE TenantID = @TenantID;
+
+    -- Đặt lại trạng thái các phòng không còn được thuê (0 = Trống)
+    UPDATE Room
+    SET Status = 0
+    WHERE RoomID NOT IN (SELECT RoomID FROM Tenant WHERE RoomID IS NOT NULL);
+END;

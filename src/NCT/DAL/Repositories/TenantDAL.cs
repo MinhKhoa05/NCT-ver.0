@@ -1,5 +1,6 @@
 ﻿using DAL.Helpers;
 using DTO;
+using System.Collections.Generic;
 
 namespace DAL.Repositories
 {
@@ -10,8 +11,8 @@ namespace DAL.Repositories
 
         public override void Insert(Tenant tenant)
         {
-            string sql = $@"INSERT INTO {TableName} ({IDColumn}, FullName, PhoneNumber, Email, Address, NationalID, RoomID)
-                VALUES (@{IDColumn}, @FullName, @PhoneNumber, @Email, @Address, @NationalID, @RoomID)";
+            string sql = $@"INSERT INTO {TableName} ({IDColumn}, FullName, PhoneNumber, Email, Address, NationalID)
+                VALUES (@{IDColumn}, @FullName, @PhoneNumber, @Email, @Address, @NationalID)";
 
             Connector.ExecuteNonQuery(sql, tenant);
         }
@@ -24,11 +25,28 @@ namespace DAL.Repositories
                 Email = @Email,
                 Address = @Address,
                 NationalID = @NationalID,
-                RoomID = @RoomID
                 WHERE {IDColumn} = @{IDColumn}";
 
             Connector.ExecuteNonQuery(sql, tenant);
         }
 
+        public override List<Tenant> Search(string keyword)
+        {
+            string sql = $@"SELECT * FROM {TableName} WHERE 
+                LOWER({IDColumn}) LIKE @Keyword OR
+                LOWER(FullName) LIKE @Keyword OR
+                LOWER(PhoneNumber) LIKE @Keyword OR
+                LOWER(Email) LIKE @Keyword OR
+                LOWER(NationalID) LIKE @Keyword OR
+                LOWER(Address) LIKE @Keyword OR
+                LOWER(RoomID) LIKE @Keyword";
+
+            var parameters = new
+            {
+                Keyword = "%" + keyword.ToLower() + "%"
+            };
+
+            return Connector.ExecuteQuery<Tenant>(sql, parameters);
+        }
     }
 }
