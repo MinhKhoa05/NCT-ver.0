@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using BUS.Services;
 using DTO;
-using GUI.Managers;
+using GUI.Helpers;
 
 namespace GUI.ChildForms
 {
@@ -115,19 +115,6 @@ namespace GUI.ChildForms
         {
             try
             {
-                // Kiểm tra các giá trị ngày
-                if (dtpStartDate.Value < new DateTime(1753, 1, 1) || dtpStartDate.Value > new DateTime(9999, 12, 31))
-                {
-                    MyMessageBox.ShowError("Ngày bắt đầu phải trong khoảng từ 01/01/1753 đến 31/12/9999.");
-                    return;
-                }
-
-                if (dtpEndDate.Value < new DateTime(1753, 1, 1) || dtpEndDate.Value > new DateTime(9999, 12, 31))
-                {
-                    MyMessageBox.ShowError("Ngày kết thúc phải trong khoảng từ 01/01/1753 đến 31/12/9999.");
-                    return;
-                }
-
                 var contract = new Contract
                 {
                     ContractID = txtContractID.Text.Trim(),
@@ -155,7 +142,7 @@ namespace GUI.ChildForms
             }
             catch (Exception ex)
             {
-                MyMessageBox.ShowError($"Đã có lỗi xảy ra: {ex.Message}");
+                MyMessageBox.ShowError(ex.Message);
             }
         }
 

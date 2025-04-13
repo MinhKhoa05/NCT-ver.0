@@ -14,6 +14,8 @@ namespace GUI.Commands
                     return new TenantCommand();
                 case "Contract":
                     return new ContractCommand();
+                case "Service":
+                    return new ServiceCommand();
                 default:
                     throw new InvalidOperationException($"Chưa hỗ trợ cho Command: {type}");
             }

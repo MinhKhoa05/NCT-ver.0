@@ -163,10 +163,11 @@ CREATE TABLE BasicFurnitureInRoom (
 -- 11. Service Table
 -- ======================================
 CREATE TABLE Service (
-    ServiceID   INT IDENTITY(1, 1)  PRIMARY KEY,
-    ServiceName NVARCHAR(100)       NOT NULL,
+    ServiceID   VARCHAR(6)          PRIMARY KEY,
+    ServiceName NVARCHAR(30)        NOT NULL,
+	ServiceType BIT					NOT NULL DEFAULT 0,  -- 1: Định kỳ, 0: Phát sinh
     UnitPrice   INT                 NOT NULL,
-    Unit        NVARCHAR(50)        NOT NULL
+    Unit        NVARCHAR(15)        NOT NULL
 );
 
 -- ======================================
@@ -179,7 +180,7 @@ CREATE TABLE ServiceUsage (
     EndIndex        INT                 NULL,           -- End meter reading (for Electricity/Water services)
     Quantity        INT                 NOT NULL,
     
-    ServiceID       INT                 NOT NULL,
+    ServiceID       VARCHAR(6)          NOT NULL,
     RoomID          CHAR(5)             NOT NULL,
     TenantID        VARCHAR(6)          NULL,           -- Tenant who used the service (optional for personal services)
     
@@ -215,7 +216,7 @@ CREATE TABLE Invoice (
 CREATE TABLE InvoiceDetail (
     InvoiceDetailID INT IDENTITY(1, 1)  PRIMARY KEY,
     InvoiceID       VARCHAR(50)         NOT NULL,
-    ServiceID       INT                 NOT NULL,                       -- Which service (Electricity, Water, etc.)
+    ServiceID       VARCHAR(6)          NOT NULL,                       -- Which service (Electricity, Water, etc.)
     
     UnitPrice       INT                 NOT NULL,                       -- Price per unit (copy at invoice creation)
     Quantity        INT                 NOT NULL,

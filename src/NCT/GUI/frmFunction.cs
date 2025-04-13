@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using GUI.Commands;
 using System;
-using GUI.Managers;
+using GUI.Helpers;
 
 namespace GUI
 {
@@ -48,6 +48,7 @@ namespace GUI
 
             currentCommand.SetDataGridView(dgv);
             lblTypeList.Text = $"Quản lý {currentCommand.LabelText}";
+            txtSearch.Text = string.Empty;
 
             dgv.DataBindingComplete -= Dgv_DataBindingComplete;
             dgv.DataBindingComplete += Dgv_DataBindingComplete;

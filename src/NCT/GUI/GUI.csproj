@@ -74,6 +74,12 @@
     <Compile Include="ChildForms\frmRoomInfo.Designer.cs">
       <DependentUpon>frmRoomInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChildForms\frmServiceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\frmServiceInfo.Designer.cs">
+      <DependentUpon>frmServiceInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChildForms\frmTenantInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,7 @@
     <Compile Include="Commands\CommandFactory.cs" />
     <Compile Include="Commands\ContractCommand.cs" />
     <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\ServiceCommand.cs" />
     <Compile Include="Commands\TenantCommand.cs" />
     <Compile Include="Commands\CommandBase.cs" />
     <Compile Include="Commands\RoomCommand.cs" />
@@ -131,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\frmRoomInfo.resx">
       <DependentUpon>frmRoomInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\frmServiceInfo.resx">
+      <DependentUpon>frmServiceInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\frmTenantInfo.resx">
       <DependentUpon>frmTenantInfo.cs</DependentUpon>
