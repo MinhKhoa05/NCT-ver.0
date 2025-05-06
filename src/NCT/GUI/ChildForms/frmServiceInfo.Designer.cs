@@ -66,7 +66,7 @@
             this.cbServiceType.Location = new System.Drawing.Point(164, 211);
             this.cbServiceType.Name = "cbServiceType";
             this.cbServiceType.Size = new System.Drawing.Size(305, 36);
-            this.cbServiceType.TabIndex = 64;
+            this.cbServiceType.TabIndex = 1;
             // 
             // lblRoom
             // 
@@ -178,7 +178,7 @@
             this.txtUnitPrice.PlaceholderText = "";
             this.txtUnitPrice.SelectedText = "";
             this.txtUnitPrice.Size = new System.Drawing.Size(305, 41);
-            this.txtUnitPrice.TabIndex = 81;
+            this.txtUnitPrice.TabIndex = 2;
             this.txtUnitPrice.TextChanged += new System.EventHandler(this.txtUnitPrice_TextChanged);
             // 
             // txtServiceName
@@ -198,7 +198,7 @@
             this.txtServiceName.PlaceholderText = "";
             this.txtServiceName.SelectedText = "";
             this.txtServiceName.Size = new System.Drawing.Size(305, 41);
-            this.txtServiceName.TabIndex = 83;
+            this.txtServiceName.TabIndex = 0;
             // 
             // cbUnit
             // 
@@ -213,7 +213,7 @@
             this.cbUnit.Location = new System.Drawing.Point(164, 301);
             this.cbUnit.Name = "cbUnit";
             this.cbUnit.Size = new System.Drawing.Size(305, 36);
-            this.cbUnit.TabIndex = 84;
+            this.cbUnit.TabIndex = 3;
             // 
             // frmServiceInfo
             // 

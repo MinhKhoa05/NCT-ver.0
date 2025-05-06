@@ -13,6 +13,7 @@ namespace GUI
         {
             InitializeComponent();
             _account = account;
+            ShowContent(new frmHome());
         }
 
         #region Content Display

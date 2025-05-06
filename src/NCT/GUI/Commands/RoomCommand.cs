@@ -20,19 +20,23 @@ namespace GUI.Commands
             ["Area"] = "{0:N0} m²"
         };
 
+        protected override Dictionary<string, string> HeaderMap => new Dictionary<string, string>
+        {
+            ["RoomID"] = "ID",
+            ["RoomTypeValue"] = "Loại",
+            ["RentPrice"] = "Giá thuê (VNĐ)",
+            ["Area"] = "Diện tích (m²)",
+            ["StatusValue"] = "Tình trạng",
+            ["CreatedAt"] = "Ngày thêm"
+        };
+
         protected override void SetupHeaders()
         {
+            base.SetupHeaders();
+
             _dgv.Columns["RoomType"].Visible = false;
             _dgv.Columns["Status"].Visible = false;
-
-            _dgv.Columns["RoomID"].HeaderText = "ID";
             _dgv.Columns["RoomID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
-
-            _dgv.Columns["RentPrice"].HeaderText = "Giá thuê (VNĐ)";
-            _dgv.Columns["Area"].HeaderText = "Diện tích (m²)";
-            _dgv.Columns["RoomTypeValue"].HeaderText = "Loại";
-            _dgv.Columns["StatusValue"].HeaderText = "Tình trạng";
-            _dgv.Columns["CreatedAt"].HeaderText = "Ngày thêm";
         }
 
         protected override Form CreateForm(bool isAdd, string id = null)

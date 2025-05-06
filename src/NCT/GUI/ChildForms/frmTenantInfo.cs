@@ -29,6 +29,7 @@ namespace GUI.ChildForms
             txtRoom.Visible = !_isAdd;
             lblRoom.Visible = !_isAdd;
 
+            txtFullName.Focus();
             LoadData();
         }
 

@@ -133,7 +133,7 @@
             this.txtRoom.PlaceholderText = "";
             this.txtRoom.SelectedText = "";
             this.txtRoom.Size = new System.Drawing.Size(339, 41);
-            this.txtRoom.TabIndex = 52;
+            this.txtRoom.TabIndex = 5;
             // 
             // txtPhone
             // 
@@ -154,7 +154,7 @@
             this.txtPhone.PlaceholderText = "";
             this.txtPhone.SelectedText = "";
             this.txtPhone.Size = new System.Drawing.Size(339, 36);
-            this.txtPhone.TabIndex = 41;
+            this.txtPhone.TabIndex = 1;
             // 
             // lblRoom
             // 
@@ -186,7 +186,7 @@
             this.txtCCCD.PlaceholderText = "";
             this.txtCCCD.SelectedText = "";
             this.txtCCCD.Size = new System.Drawing.Size(339, 41);
-            this.txtCCCD.TabIndex = 44;
+            this.txtCCCD.TabIndex = 4;
             // 
             // txtAddress
             // 
@@ -207,7 +207,7 @@
             this.txtAddress.PlaceholderText = "";
             this.txtAddress.SelectedText = "";
             this.txtAddress.Size = new System.Drawing.Size(339, 36);
-            this.txtAddress.TabIndex = 43;
+            this.txtAddress.TabIndex = 3;
             // 
             // txtEmail
             // 
@@ -228,7 +228,7 @@
             this.txtEmail.PlaceholderText = "";
             this.txtEmail.SelectedText = "";
             this.txtEmail.Size = new System.Drawing.Size(339, 36);
-            this.txtEmail.TabIndex = 42;
+            this.txtEmail.TabIndex = 2;
             // 
             // txtFullName
             // 
@@ -249,7 +249,7 @@
             this.txtFullName.PlaceholderText = "";
             this.txtFullName.SelectedText = "";
             this.txtFullName.Size = new System.Drawing.Size(339, 36);
-            this.txtFullName.TabIndex = 39;
+            this.txtFullName.TabIndex = 0;
             // 
             // txtTenantID
             // 
@@ -272,7 +272,7 @@
             this.txtTenantID.PlaceholderText = "";
             this.txtTenantID.SelectedText = "";
             this.txtTenantID.Size = new System.Drawing.Size(339, 36);
-            this.txtTenantID.TabIndex = 40;
+            this.txtTenantID.TabIndex = 20;
             // 
             // lblCCCD
             // 

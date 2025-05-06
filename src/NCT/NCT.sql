@@ -28,10 +28,10 @@ CREATE TABLE Room (
 CREATE TABLE Tenant (
     TenantID        VARCHAR(6)          PRIMARY KEY,
     FullName        NVARCHAR(30)        NOT NULL,
-    PhoneNumber     VARCHAR(20)         NOT NULL,
-    Email           NVARCHAR(100)       NULL,
+    PhoneNumber     VARCHAR(20)         NOT NULL        UNIQUE,
+    Email           NVARCHAR(100)       NULL            UNIQUE,
     Address         NVARCHAR(255)       NULL,
-    NationalID      CHAR(12)            NULL        UNIQUE, -- CCCD
+    NationalID      CHAR(12)            NOT NULL        UNIQUE, -- CCCD
     RoomID          CHAR(5)		        NULL,
 
     CONSTRAINT FK_Tenant_Room FOREIGN KEY (RoomID) REFERENCES Room(RoomID)

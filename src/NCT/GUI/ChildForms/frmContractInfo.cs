@@ -78,7 +78,10 @@ namespace GUI.ChildForms
                 t.TenantID == currentTenantID
             );
 
-            availableTenants.Insert(0, new Tenant { TenantID = "", FullName = "-- Chọn khách thuê --" });
+            if (_isAdd)
+            {
+                availableTenants.Insert(0, new Tenant { TenantID = "", FullName = "-- Chọn khách thuê --" });
+            }
 
             cbTenant.DataSource = availableTenants;
             cbTenant.DisplayMember = "FullName";
@@ -88,7 +91,11 @@ namespace GUI.ChildForms
         private void InitRoomComboBox()
         {
             var rooms = roomBUS.GetAll();
-            rooms.Insert(0, new Room { RoomID = "-- Chọn phòng --" });
+
+            if (_isAdd)
+            {
+                rooms.Insert(0, new Room { RoomID = "-- Chọn phòng --" });
+            }
 
             cbRoom.DataSource = rooms;
             cbRoom.DisplayMember = "RoomID";

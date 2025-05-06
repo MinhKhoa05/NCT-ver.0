@@ -17,7 +17,7 @@ namespace GUI.Commands
                 case "Service":
                     return new ServiceCommand();
                 default:
-                    throw new InvalidOperationException($"Chưa hỗ trợ cho Command: {type}");
+                    throw new InvalidOperationException($"Chức năng '{type}' chưa được hỗ trợ :((");
             }
         }
     }

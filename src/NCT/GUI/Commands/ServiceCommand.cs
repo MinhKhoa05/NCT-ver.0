@@ -19,17 +19,23 @@ namespace GUI.Commands
             ["UnitPrice"] = "{0:N0} VNĐ",
         };
 
+        protected override Dictionary<string, string> HeaderMap => new Dictionary<string, string>
+        {
+            ["ServiceID"] = "ID",
+            ["ServiceName"] = "Tên dịch vụ",
+            ["Type"] = "Loại",
+            ["UnitPrice"] = "Đơn giá",
+            ["Unit"] = "Đơn vị tính"
+        };
+
         protected override void SetupHeaders()
         {
+            base.SetupHeaders();
             _dgv.Columns["ServiceType"].Visible = false;
-
-            _dgv.Columns["ServiceID"].HeaderText = "ID";
             _dgv.Columns["ServiceID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
-
-            _dgv.Columns["ServiceName"].HeaderText = "Tên dịch vụ";
-            _dgv.Columns["Type"].HeaderText = "Loại";
-            _dgv.Columns["UnitPrice"].HeaderText = "Đơn giá";
-            _dgv.Columns["Unit"].HeaderText = "Đơn vị tính";
+            _dgv.Columns["Type"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+            _dgv.Columns["UnitPrice"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+            _dgv.Columns["Unit"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
         }
 
         protected override Form CreateForm(bool isAdd, string id = null)

@@ -13,7 +13,7 @@ namespace BUS.Models
             var now = DateTime.Now;
             string prefix = "HD" + now.ToString("yyyyMM"); // HD202504
 
-            int count = ((ContractDAL)_baseDAL).CountContractsInMonth(now.Year, now.Month); // cần cài đặt hàm này
+            int count = ((ContractDAL)_baseDAL).CountContractsInMonth(now.Year, now.Month);
             int nextNumber = count + 1;
 
             return prefix + nextNumber.ToString("D3"); // HD202504001

@@ -29,7 +29,20 @@ namespace GUI.Commands
         protected abstract BaseBUS<T> CreateBUS();
         protected abstract string IdColumnName { get; }
         protected abstract Form CreateForm(bool isAdd, string id = null);
-        protected abstract void SetupHeaders();
+
+        protected virtual void SetupHeaders()
+        {
+            foreach (var header in HeaderMap)
+            {
+                if (_dgv.Columns.Contains(header.Key))
+                {
+                    _dgv.Columns[header.Key].HeaderText = header.Value;
+                }
+            }
+        }
+
+        protected abstract Dictionary<string, string> HeaderMap { get; }
+
         public abstract string LabelText { get; }
 
         #endregion

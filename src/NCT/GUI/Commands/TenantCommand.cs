@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.Collections.Generic;
+using System.Windows.Forms;
 using BUS.Models;
 using DTO;
 using GUI.ChildForms;
@@ -13,22 +14,21 @@ namespace GUI.Commands
 
         protected override string IdColumnName => "TenantID";
 
+        protected override Dictionary<string, string> HeaderMap => new Dictionary<string, string>
+        {
+            ["RoomID"] = "Phòng",
+            ["TenantID"] = "ID",
+            ["FullName"] = "Họ tên",
+            ["PhoneNumber"] = "Số điện thoại",
+            ["Address"] = "Địa chỉ",
+            ["NationalID"] = "CCCD"
+        };
+
         protected override void SetupHeaders()
         {
-            _dgv.Columns["RoomID"].HeaderText = "Phòng";
+            base.SetupHeaders();
             _dgv.Columns["RoomID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
-
-            _dgv.Columns["TenantID"].HeaderText = "ID";
             _dgv.Columns["TenantID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
-
-            _dgv.Columns["FullName"].HeaderText = "Họ tên";
-            _dgv.Columns["FullName"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
-
-            _dgv.Columns["PhoneNumber"].HeaderText = "Số điện thoại";
-            _dgv.Columns["Address"].HeaderText = "Địa chỉ";
-            _dgv.Columns["Address"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
-
-            _dgv.Columns["NationalID"].HeaderText = "CCCD";
             _dgv.Columns["NationalID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
         }
 

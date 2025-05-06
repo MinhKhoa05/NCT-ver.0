@@ -20,22 +20,25 @@ namespace GUI.Commands
             ["DepositAmount"] = "{0:N0} VNĐ"
         };
 
+        protected override Dictionary<string, string> HeaderMap => new Dictionary<string, string>
+        {
+            ["ContractID"] = "ID",
+            ["TenantID"] = "ID Khách thuê",
+            ["RoomID"] = "Phòng",
+            ["StartDate"] = "Ngày bắt đầu",
+            ["EndDate"] = "Ngày hết hạn",
+            ["RentPrice"] = "Giá thuê",
+            ["DepositAmount"] = "Tiền cọc",
+            ["Note"] = "Ghi chú"
+        };
+
         protected override void SetupHeaders()
         {
+            base.SetupHeaders();
+
             _dgv.Columns["DepositReturnDate"].Visible = false;
-
-            _dgv.Columns["ContractID"].HeaderText = "ID";
             _dgv.Columns["ContractID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
-
-            _dgv.Columns["TenantID"].HeaderText = "ID Khách thuê";
-            _dgv.Columns["RoomID"].HeaderText = "Phòng";
             _dgv.Columns["RoomID"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
-
-            _dgv.Columns["StartDate"].HeaderText = "Ngày bắt đầu";
-            _dgv.Columns["EndDate"].HeaderText = "Ngày hết hạn";
-            _dgv.Columns["RentPrice"].HeaderText = "Giá thuê";
-            _dgv.Columns["DepositAmount"].HeaderText = "Tiền cọc";
-            _dgv.Columns["Note"].HeaderText = "Ghi chú";
         }
 
         protected override Form CreateForm(bool isAdd, string id = null)
