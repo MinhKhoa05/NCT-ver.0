@@ -31,8 +31,7 @@ namespace GUI
             if (_currentType == type) return;
 
             _currentType = type;
-            var functionControl = frmFunction.Instance;
-            functionControl.UpdateType(type);
+            var functionControl = new frmFunction(type);
             ShowContent(functionControl);
         }
 

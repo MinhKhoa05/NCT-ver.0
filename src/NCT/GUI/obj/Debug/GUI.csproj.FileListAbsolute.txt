@@ -1,60 +1,4 @@
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\GUI.exe
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\GUI.pdb
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\BUS.dll
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\DAL.dll
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\DTO.dll
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\FontAwesome.Sharp.dll
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\Guna.UI2.dll
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\Dapper.dll
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\System.Threading.Tasks.Extensions.dll
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\BUS.pdb
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\DAL.pdb
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\DTO.pdb
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\bin\Debug\Dapper.xml
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.FormAddReferee.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.FormCreateLeague.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.FormListReferee.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.FormLogin.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.FormStandings.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.FormListTeam.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.FormSchedule.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.FormShowSchedule.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.FormListLeague.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.FormAddTeam.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.FormMain.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.Properties.Resources.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UtilityForms.FormConfig.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UtilityForms.FormLoading.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UtilityForms.FormMessageBox.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.csproj.Up2Date
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.exe
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.pdb
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.UserControls.Leagues.FormAddTeamToLeague.resources
-B:\Đồ án CNPM\xeplichthidaugiaibongda\src\XepLichBongDa_3Layer\GUI\obj\Debug\GUI.FormInfo.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.pdb
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.dll
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.dll
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\DTO.dll
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\FontAwesome.Sharp.dll
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\Guna.UI2.dll
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\Dapper.dll
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Threading.Tasks.Extensions.dll
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.pdb
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.pdb
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\DTO.pdb
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\Dapper.xml
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Properties.Resources.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.Up2Date
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.exe
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.pdb
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmMain.resources
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe.config
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.pdb
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.dll
@@ -63,49 +7,32 @@ D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DTO.dll
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\FontAwesome.Sharp.dll
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Guna.UI2.dll
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Dapper.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.pdb
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.dll.config
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.pdb
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.dll.config
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DTO.pdb
 D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Dapper.xml
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmContractInfo.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoomInfo.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmServiceInfo.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenantInfo.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmFunction.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmHome.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmLogin.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmMain.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Helpers.CustomMessageBox.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoom.resources
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.csproj.Up2Date
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.exe
 D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.pdb
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoom.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmFunction.resources
-D:\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe.config
-D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.dll.config
-D:\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.dll.config
-D:\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoomInfo.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenantInfo.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmLogin.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmHome.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmContractInfo.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\GUI.exe.config
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\BUS.dll.config
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\DAL.dll.config
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmContractInfo.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoomInfo.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmTenantInfo.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmFunction.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmHome.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.frmLogin.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Managers.CustomMessageBox.resources
-B:\Đồ án CNPM\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmRoom.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.ChildForms.frmServiceInfo.resources
-D:\NCT-ver.0\src\NCT\GUI\obj\Debug\GUI.Helpers.CustomMessageBox.resources

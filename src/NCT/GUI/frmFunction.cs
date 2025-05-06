@@ -12,26 +12,42 @@ namespace GUI
 
         private ICommand currentCommand;
         private string currentType;
-        private static frmFunction _instance;
 
         #endregion
 
         #region Singleton
 
-        private frmFunction()
+        public frmFunction(string type)
         {
             InitializeComponent();
             InitializeEvents();
-        }
 
-        public static frmFunction Instance
-        {
-            get
+            if (type == currentType) return;
+            currentType = type;
+
+            try
             {
-                if (_instance == null || _instance.IsDisposed)
-                    _instance = new frmFunction();
-                return _instance;
+                currentCommand = CommandFactory.CreateCommand(type);
             }
+            catch (Exception ex)
+            {
+                MyMessageBox.ShowError(ex.Message);
+                return;
+            }
+
+            ConfigureUI(type);
+
+            currentCommand.SetDataGridView(dgv);
+            lblTypeList.Text = $"Quản lý {currentCommand.LabelText}";
+            txtSearch.Text = string.Empty;
+
+            dgv.DataBindingComplete -= dgv_DataBindingComplete;
+            dgv.DataBindingComplete += dgv_DataBindingComplete;
+
+            dgv.CellFormatting -= dgv_CellFormatting;
+            dgv.CellFormatting += dgv_CellFormatting;
+
+            currentCommand.Load();
         }
 
         #endregion

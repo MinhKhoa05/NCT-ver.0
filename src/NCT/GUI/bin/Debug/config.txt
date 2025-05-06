@@ -1,1 +1,0 @@
-Data Source=.\SQLEXPRESS;Initial Catalog=FootballScheduler;Integrated Security=True;
